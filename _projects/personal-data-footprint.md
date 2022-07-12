@@ -6,7 +6,7 @@ description: >
   Description.
 date: '01-01-2019'
 image: 
-  path: /assets/img/projects/hydejack-site.jpg
+  path: /assets/img/projects/footprint.gif
   srcset: 
     1920w: /assets/img/projects/hydejack-site.jpg
     960w:  /assets/img/projects/hydejack-site@0,5x.jpg
