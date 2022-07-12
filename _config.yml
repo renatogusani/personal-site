@@ -20,7 +20,7 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 Renato Gusani
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -69,6 +69,7 @@ menu:
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2022 Renato Gusani
+copyright:             Powered by [<strong>Hydejack</strong>](https://hydejack.com/) v9.1.6
 
 # Format of the permalinks
 permalink:             /blog/:categories/:year-:month-:day-:title/
