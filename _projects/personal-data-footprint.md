@@ -1,4 +1,3 @@
-# 2019
 ---
 layout: project
 title: 'Personal Data Footprint'
