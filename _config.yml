@@ -68,8 +68,8 @@ menu:
 #    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2022 Renato Gusani
-copyright:             Powered by [<strong>Hydejack</strong>](https://hydejack.com/) v9.1.6
+copyright:             © 2022 Renato Gusani\
+                       Powered by [Hydejack](https://hydejack.com/) v9.1.6
 
 # Format of the permalinks
 permalink:             /blog/:categories/:year-:month-:day-:title/
