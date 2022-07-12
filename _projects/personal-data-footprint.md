@@ -13,6 +13,6 @@ image:
     480w:  /assets/img/projects/footprint.jpg
 links:
   - title: Link
-    url: https://hydejack.com/
+    url: 
 sitemap: false
 ---
