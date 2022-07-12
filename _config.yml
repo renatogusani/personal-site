@@ -52,7 +52,7 @@ menu:
 #    url:               /blog/
   - title:             Projects
     url:               /projects/
-  - title:             Résumé*
+  - title:             Resume
     url:               /resume/
 #  - title:             Documentation
 #    url:               /docs/
