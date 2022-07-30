@@ -23,8 +23,8 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     # twitter:         <username>
-    linkedin:          <https://www.linkedin.com/in/rgusani/>
-    github:            <https://github.com/renatogusani>
+    linkedin:          https://www.linkedin.com/in/rgusani/
+    github:            https://github.com/renatogusani
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
@@ -60,7 +60,7 @@ author1:
     # stumbleupon:     <username>
     # paypal:          <username>
     # download:        <url>
-    SpaceXplorer:      <https://spacexplorer.info>
+    SpaceXplorer:      https://spacexplorer.info
     # keybase          <username>
 
 # Another author (optional)
