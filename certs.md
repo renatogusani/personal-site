@@ -1,5 +1,5 @@
 ---
-layout: certs
+layout: cert
 title: Licenses & certifications
 show_collection: certs
 description: >
