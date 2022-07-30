@@ -4,6 +4,6 @@ title: Projects
 show_collection: projects
 description: >
   Projects by year of creation.
-no_groups: true
+no_groups: false
 ---
 # 2019
