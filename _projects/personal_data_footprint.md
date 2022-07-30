@@ -7,7 +7,7 @@ description: >
   prepare a short report entailing how and why the discovered data sources are relevant and accessible for the study. I will also have had to note key
   details of the data sources, application areas, and how they could contribute to a study design.
   
-date: 2019
+date: sept 2019
 image: 
   path: /assets/img/projects/
   srcset: 
