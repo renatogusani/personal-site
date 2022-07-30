@@ -3,6 +3,6 @@ layout: projects
 title: Awards
 show_collection: projects
 description: >
-  Awards by year of being awarded.
+  Awards by year of issue.
 no_groups: false
 ---
