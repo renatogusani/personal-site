@@ -45,4 +45,8 @@ The project report is organized in the following manner:
   URLs in the text). 
 
 * *Review of the Literature:* Highlighted how the discovered datasets or comparable datasets have been used in other research investigations. kept the
-  level of conversation high.
+  level of conversation high. This section could use between 5 and 7 pertinent scholarly references (journal articles or conference papers). 
+
+* *Study Design:* addressed the relevance and accessibility of the newly discovered data sources for the study, briefly reviewed other application areas for the datasets, and explained how they may be merged or analysed differently to accomplish other goals. 
+
+* *References:* a comprehensive list of the books, articles, websites, and other materials utilized in the evaluation. In-text citations for references are used in accordance with IEEE style.
