@@ -52,6 +52,10 @@ menu:
 #    url:               /blog/
   - title:             Projects
     url:               /projects/
+  - title:             Projects
+    url:               /Awards/
+  - title:             Volunteering
+    url:               /blog/
   - title:             Resume
     url:               /resume/
 #  - title:             Documentation
