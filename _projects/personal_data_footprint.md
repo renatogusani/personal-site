@@ -51,8 +51,4 @@ The project report is organized in the following manner:
 
 * *References:* a comprehensive list of the books, articles, websites, and other materials utilized in the evaluation. In-text citations for references are used in accordance with IEEE style.
 
-<object data="http://renatogusani.com/https://github.com/renatogusani/BSc-Data-Science/blob/main/Year%201/Semester%201/Intro%20to%20DS/IEEE%20Paper%20on%20Personal%20Data%20CA2%2070%25.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="[http://yoursite.com/the.pdf](https://github.com/renatogusani/BSc-Data-Science/blob/main/Year%201/Semester%201/Intro%20to%20DS/IEEE%20Paper%20on%20Personal%20Data%20CA2%2070%25.pdf)">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="[http://yoursite.com/the.pdf](https://github.com/renatogusani/BSc-Data-Science/blob/main/Year%201/Semester%201/Intro%20to%20DS/IEEE%20Paper%20on%20Personal%20Data%20CA2%2070%25.pdf)">Download PDF</a>.</p>
-    </embed>
-</object>
+
