@@ -9,13 +9,13 @@ description: >
   
 date: sept 2019
 image: 
-  path: /assets/img/projects/
+  path: /assets/img/projects/footprint.jpg
   srcset: 
-    1920w: /assets/img/projects/
-    960w:  /assets/img/projects/
-    480w:  /assets/img/projects/
+    1920w: /assets/img/projects/footprint.jpg
+    960w:  /assets/img/projects/footprint.jpg
+    480w:  /assets/img/projects/footprint.jpg
 links:
-  - title: Link
+  - title: Download PDF
     url: 
 accent_color: '#4fb1ba'
 accent_image:
