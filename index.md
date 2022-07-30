@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hi There!
-sitemap: false
+sitemap: true
 ---
 
 Hi, I'm [Renato](https://www.linkedin.com/in/rgusani/). Final Year [<strong>BSc Data Science</strong>](https://github.com/renatogusani/BSc-Data-Science) Student at the National College of Ireland.
