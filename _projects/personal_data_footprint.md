@@ -1,11 +1,13 @@
 ---
 layout: project
-title: '@qwtel'
-caption: How I use Hydejack on my personal site.
+title: 'Personal Data Footprint'
+caption: Year 1 Semester 1
 description: >
-  test
+  In this assessment, I was tasked to locate appropriate data sets for a fictitious study that meets certain criteria and requirements. I will have had to
+  prepare a short report entailing how and why the discovered data sources are relevant and accessible for the study. I will also have had to note key
+  details of the data sources, application areas, and how they could contribute to a study design.
   
-date: 1 Jun 2020
+date: 2019
 image: 
   path: /assets/img/projects/
   srcset: 
@@ -22,4 +24,25 @@ theme_color: '#193747'
 sitemap: false
 ---
 
-Test
+**Standards for Dataset(s)** 
+When looking for datasets, the following criteria were taken into account: 
+
+* The hypothetical study ought to be about a subject I find fascinating (e.g., learning, movies, a sport you are playing, etc.). 
+
+* Choosen at least two datasets that would compliment one another in some way (e.g., if I am interested in movies one dataset could be from a movie database and another from social media users). 
+
+* The datasets should have been gathered using various techniques (e.g., scraping social media or user generated websites, surveys filled by people, automatic recording of user activities, etc.). 
+
+* The datasets must be of the proper size (depending on the topic of the study these could range in size form a few hundreds to thousands or even millions of instances).
+
+**The Report's Format**
+The project report is organized in the following manner: 
+
+* *Introduction:* Describe the goals of my hypothetical study and the method or approach I used to find the right datasets. 
+
+* *Data:* Outlined the traits and composition of the datasets. Tables were used to summarize the key elements of my dataset(s) (e.g., format, size,number
+  of instances, number of attributes and their type, etc.). Ensured to incorporate citations for dataset sources (as proper references or footnotes not
+  URLs in the text). 
+
+* *Review of the Literature:* Highlighted how the discovered datasets or comparable datasets have been used in other research investigations. kept the
+  level of conversation high.
