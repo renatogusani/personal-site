@@ -16,7 +16,7 @@ image:
     480w:  /assets/img/projects/footprint.png
 links:
   - title: Download PDF
-    url: 
+    url: /projects_assets/IEEE Paper on Personal Data CA2 70%.pdf
 accent_color: '#4fb1ba'
 accent_image:
   background: '#193747'
