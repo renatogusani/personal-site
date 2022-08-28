@@ -9,11 +9,11 @@ description: >
   
 date: sept 2019
 image: 
-  path: /assets/img/projects/footprint.jpg
+  path: /assets/img/projects/footprint.png
   srcset: 
-    1920w: /assets/img/projects/footprint.jpg
-    960w:  /assets/img/projects/footprint.jpg
-    480w:  /assets/img/projects/footprint.jpg
+    1920w: /assets/img/projects/footprint.png
+    960w:  /assets/img/projects/footprint.png
+    480w:  /assets/img/projects/footprint.png
 links:
   - title: Download PDF
     url: 
