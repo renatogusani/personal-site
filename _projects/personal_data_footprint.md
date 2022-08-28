@@ -16,7 +16,7 @@ image:
     480w:  /assets/img/projects/footprint.png
 links:
   - title: Download PDF
-    url: /projects_assets/IEEE Paper on Personal Data CA2 70%.pdf
+    url: [/projects_assets/IEEE Paper on Personal Data CA2 70%.pdf](https://github.com/renatogusani/BSc-Data-Science/blob/main/Year%201/Semester%201/Intro%20to%20DS/IEEE%20Paper%20on%20Personal%20Data%20CA2%2070%25.pdf)
 accent_color: '#4fb1ba'
 accent_image:
   background: '#193747'
