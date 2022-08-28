@@ -52,12 +52,12 @@ menu:
 #    url:               /blog/
   - title:             Projects
     url:               /projects/
-#  - title:             Licenses & certifications
-#    url:               /certs/
-#  - title:             Volunteering
-#    url:               /volunteering/
-#  - title:             Awards
-#    url:               /awards/
+  - title:             Licenses & certifications
+    url:               /certs/
+  - title:             Volunteering
+    url:               /volunteering/
+  - title:             Awards
+    url:               /awards/
   - title:             Resume
     url:               /resume/
 #  - title:             Documentation
