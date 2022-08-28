@@ -27,7 +27,7 @@ sitemap: false
 **Standards for Dataset(s)** 
 When looking for datasets, the following criteria were taken into account: 
 
-* The hypothetical study ought to be about a subject I find fascinating (e.g., learning, movies, a sport you are playing, etc.). 
+* This hypothetical study was ought to be about a subject I find fascinating (e.g., learning, movies, a sport I am playing, etc.). 
 
 * Choosen at least two datasets that would compliment one another in some way (e.g., if I am interested in movies one dataset could be from a movie database and another from social media users). 
 
@@ -38,7 +38,7 @@ When looking for datasets, the following criteria were taken into account:
 **The Report's Format**
 The project report is organized in the following manner: 
 
-* *Introduction:* Describe the goals of my hypothetical study and the method or approach I used to find the right datasets. 
+* *Introduction:* Describing the goals of my hypothetical study and the method or approach I used to find the right datasets. 
 
 * *Data:* Outlined the traits and composition of the datasets. Tables were used to summarize the key elements of my dataset(s) (e.g., format, size,number
   of instances, number of attributes and their type, etc.). Ensured to incorporate citations for dataset sources (as proper references or footnotes not
