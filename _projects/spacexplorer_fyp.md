@@ -1,8 +1,9 @@
 ---
 layout: project
-title: 'SpaceXplorer'
+title: 'www.spacexplorer.info'
 caption: Final Year Project \| Year 4
 description: >
+  A Final Year Project - Explore the Unofficial SpaceX & NASA API with Data Science.
 
   
 date: aug 2023
