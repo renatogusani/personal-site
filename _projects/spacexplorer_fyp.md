@@ -7,11 +7,11 @@ description: >
   
 date: aug 2023
 image: 
-  path: /assets/img/projects/01.jpg
+  path: /assets/img/projects/spacex.png
   srcset: 
-    1920w: /assets/img/projects/01.jpg
-    960w:  /assets/img/projects/01.jpg
-    480w:  /assets/img/projects/01.jpg
+    1920w: /assets/img/projects/spacex.png
+    960w:  /assets/img/projects/spacex.png
+    480w:  /assets/img/projects/spacex.png
 links:
   - title: View Project
     url: https://spacexplorer.info
