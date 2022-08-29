@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'Personal Data Footprint'
-caption: Year 1 Semester 1
+caption: Intro to DS | Year 1 Semester 1
 description: >
   In this assessment, I was tasked to locate appropriate data sets for a fictitious study that meets certain criteria and requirements. I will have had to
   prepare a short report entailing how and why the discovered data sources are relevant and accessible for the study. I will also have had to note key
