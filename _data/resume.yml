@@ -4,7 +4,7 @@
 basics:
   name: "Renato Gusani"
   label: "BSc Data Science Student"
-  picture: "https://via.placeholder.com/240x240"
+#  picture: "https://via.placeholder.com/240x240"
   email: "renato.gusani@outlook.com"
 #  phone: "(912) 555-4321"
   website: "https://renatogusani.com"
