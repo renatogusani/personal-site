@@ -6,9 +6,11 @@ description: >
   In this assignment, I must locate a good dataset for a supervised machine learning issue (e.g., classification or regression). 
   The dataset must fulfill the following requirements: 
   Attributes that are both category and numerical. 
-  Include missing values (as some datasets may not have missing values the lecturer will provide code that you should run to randomly introduce some missing values). 
+  Include missing values (as some datasets may not have missing values the lecturer will provide code that you should run to randomly introduce some
+  missing values). 
   be somewhat large (e.g., at least hundreds of instances). 
-  The dataset should be fresh to me (e.g., it should not have been used in labs/resources mentioned by the lecturer, it should not have been used in a prior assessment for a different module, etc.).
+  The dataset should be fresh to me (e.g., it should not have been used in labs/resources mentioned by the lecturer, it should not have been used in a
+  prior assessment for a different module, etc.).
   
 date: jan 2021
 image: 
