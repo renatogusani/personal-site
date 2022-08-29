@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'MySQL Movie Database'
-caption: Introduction to Data Modelling & Databases \| Year 2 Semester 1
+caption: Intro to Data Modelling & Databases \| Year 2 Semester 1
 description: >
   The goal of this project is to design, install, and maintain a database system using an appropriate database package as a solution 
   for the business to handle data management concerns by offering value-added reporting utilizing sophisticated SQL programming abilities. 
