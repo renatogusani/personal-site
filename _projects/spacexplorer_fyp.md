@@ -15,7 +15,7 @@ image:
     480w:  /assets/img/projects/spacex.png
 links:
   - title: View Project
-    url: https://spacexplorer.info
+    url: 
 accent_color: '#4fb1ba'
 accent_image:
   background: '#193747'
