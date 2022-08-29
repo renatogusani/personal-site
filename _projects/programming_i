@@ -1,0 +1,35 @@
+---
+layout: project
+title: 'Programming I | Python'
+caption: Programming I \| Year 2 Semester 1
+description: >
+  The goal of this project is to design, install, and maintain a database system using an appropriate database package as a solution 
+  for the business to handle data management concerns by offering value-added reporting utilizing sophisticated SQL programming abilities. 
+  A real-life situation may be explored using assumptions that offered a knowledge of an organization's difficulties and requirements 
+  and work my way through the High Level modelling, physical design, and queries of a DBMS solution. This project's talents will be useful 
+  in the function of a DBMS specialist. I will be able to depict the design models (ERD diagram) using Microsoft Access or an equivalent tool, 
+  and I will also have access to MySQL Workbench for DBMS implementation.
+
+  
+date: jan 2020
+image: 
+  path: /assets/img/projects/python1.png
+  srcset: 
+    1920w: /assets/img/projects/python1.png
+    960w:  /assets/img/projects/python1.png
+    480w:  /assets/img/projects/python1.png
+links:
+  - title: Download PDF
+    url: 
+accent_color: '#4fb1ba'
+accent_image:
+  background: '#193747'
+theme_color: '#193747'
+sitemap: false
+---
+
+* *Program 1:* * 
+Created a Python program to play the Hangman game. 
+In the game of Hangman, the software provides a hint word (e.g. elaborate) that the player must guess letter by letter. 
+The player makes one letter guess at a time until the complete word is revealed/guessed. The player may only guess 6 letters incorrectly before losing 
+the game. In my approach, I should use the input() function to obtain the player's input.
