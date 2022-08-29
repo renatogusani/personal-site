@@ -92,8 +92,27 @@ education:
 #    keywords:
 #      - "Ferrets"
 #      - "Unicorns"
-# references:
-#  - name: "Erlich Bachman"
-#    reference: >
-#     It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-#      Company proved that he will be a valuable addition to any company.
+ references:
+  - name: "Claire Griffiths"
+    reference: >
+     Renato has been one of the stand out Interns in the Dell Technologies EMEA 2022 Internship program. 
+     He volunteered to be part of the Internship Core team and has added significant value as a team member and one of the communication leads, 
+     responsible for our biweekly newsletter. Renato has contributed so much to the program; he is one of the first to speak in a group setting, 
+     is reliable, has a great sense of humour and has supported his peers and colleagues throughout. Thank you Renato, its been a pleasure to work with you
+     and we hope to see you at Dell Technologies again very soon!.
+     
+  - name: "Yael Noy"
+    reference: >
+     It was a true pleasure getting to work with Renato during his Dell Technologies EMEA 2022 Internship program. Renato is highly motivated, driven, 
+     and creative. He volunteered to be part of the Internship Core team and has added substantial value to our core team and the internship program 
+     communication team. Renato delivered inventive solutions and completed the required tasks while meeting deadlines and establishing effective 
+     relationships with his colleagues. Thank you, Renato, for all your great work!
+     
+   - name: "Lucas Lopes"
+    reference: >
+     I've had the pleasure of being Renato's Mentor during his Internship here at Dell Technologies for the past 6 months. Renato has shown his drive and 
+     motivation to learn throughout his time here, he has carried out all tasks assigned to him in a very professional manner and has always delivered on these tasks effectively and on time. His communication and personality makes him a great team player who is always willing to help for the greater good of the team.
+     Besides the day to day work, Renato has also taken part in various internal and external volunteering events. He has been a communications lead for 
+     the bi-weekly Internship News Letter and a valued member of the EMEA Internship Core Team. He has also taken part in creating Computer Science Lessons 
+     in partnership with TU Dublin (Csinc.ie) which will be taught throughout Secondary Schools in Ireland as well as having worked on content creation for TecKno.dell.com.
+     Its been an absolute pleasure having you as part of the Cyber Team here in Dell Technologies and I wish you the very best of luck on your next adventures !
