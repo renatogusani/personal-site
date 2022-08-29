@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'Criminology Report'
-caption: Data Visualization | Year 2 Semester 1
+caption: Data Visualization \| Year 2 Semester 1
 description: >
   This assignment involved the usage of a publically accessible dataset from a specified source to create a report that included a number of effective 
   visualisations to highlight underlying patterns in the dataset as well as a narrative about the dataset's subject. I'll also have to develop and build a 
