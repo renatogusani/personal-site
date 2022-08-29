@@ -23,7 +23,7 @@ theme_color: '#193747'
 sitemap: false
 ---
 
-* *Program 1:* * 
+**Program 1:** 
 Created a Python program to play the Hangman game. 
 In the game of Hangman, the software provides a hint word (e.g. elaborate) that the player must guess letter by letter. 
 The player makes one letter guess at a time until the complete word is revealed/guessed. The player may only guess 6 letters incorrectly before losing 
