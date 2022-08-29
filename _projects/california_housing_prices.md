@@ -10,11 +10,11 @@ description: >
   
 date: sept 2020
 image: 
-  path: /assets/img/projects/statistics2.png
+  path: /assets/img/projects/housing.png
   srcset: 
-    1920w: /assets/img/projects/statistics2.png
-    960w:  /assets/img/projects/statistics2.png
-    480w:  /assets/img/projects/statistics2.png
+    1920w: /assets/img/projects/housing.png
+    960w:  /assets/img/projects/housing.png
+    480w:  /assets/img/projects/housing.png
 links:
   - title: Download PDF
     url: 
