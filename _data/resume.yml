@@ -9,8 +9,11 @@ basics:
 #  phone: "(912) 555-4321"
   website: "https://renatogusani.com"
   summary: >
-    Aspiring security professional with 7 months of experience as a cybersecurity analyst intern at Dell Technologies.
-    Data-driven and detail-oriented final year BSc data science student 2.1 average. Bringing top problem-solving skills and proven record in programming, statistics and machine learning.
+    BSc (Honors) Data Science student at National College of Ireland maintaining an overall grade of Upper Second Class (2.1) Honors.
+    
+    Experience as a Cybersecurity Intern & Digital Product Intern utilizing tools such as Excel, Salesforce Demandware Software and Riversand PIM Software.
+    
+    Strong performance in statistics modules, covering Inference Statistics, Methodologies, Statistical Models, Effect Size and Statistical Power including research of IEEE. Achieving an average of 80% in both Statistics I and Statistics II Modules.
   location:
 #    address: "2712 Broadway St"
 #    postalCode: "CA 94115"
@@ -89,11 +92,8 @@ education:
 #    keywords:
 #      - "Ferrets"
 #      - "Unicorns"
- references:
-  - name: "Claire Griffiths"
-    reference: >
-     Renato has been one of the stand out Interns in the Dell Technologies EMEA 2022 Internship program. 
-     He volunteered to be part of the Internship Core team and has added significant value as a team member and one of the communication leads, 
-     responsible for our biweekly newsletter. Renato has contributed so much to the program; he is one of the first to speak in a group setting, 
-     is reliable, has a great sense of humour and has supported his peers and colleagues throughout. Thank you Renato, its been a pleasure to work with you
-     and we hope to see you at Dell Technologies again very soon!.
+# references:
+#  - name: "Erlich Bachman"
+#    reference: >
+#     It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#      Company proved that he will be a valuable addition to any company.
