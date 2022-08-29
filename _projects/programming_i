@@ -1,15 +1,10 @@
 ---
 layout: project
 title: 'Programming I | Python'
-caption: Programming I \| Year 2 Semester 1
+caption: Programming I \| Year 1 Semester 2
 description: >
-  The goal of this project is to design, install, and maintain a database system using an appropriate database package as a solution 
-  for the business to handle data management concerns by offering value-added reporting utilizing sophisticated SQL programming abilities. 
-  A real-life situation may be explored using assumptions that offered a knowledge of an organization's difficulties and requirements 
-  and work my way through the High Level modelling, physical design, and queries of a DBMS solution. This project's talents will be useful 
-  in the function of a DBMS specialist. I will be able to depict the design models (ERD diagram) using Microsoft Access or an equivalent tool, 
-  and I will also have access to MySQL Workbench for DBMS implementation.
-
+  I was required to submit five separate exercises/tests as part of the ongoing continuous assessment. 
+  Each exercise/test is worth a maximum of 10% of the module's grade.
   
 date: jan 2020
 image: 
