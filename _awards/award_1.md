@@ -1,5 +1,5 @@
 ---
-layout: cert
+layout: award
 title: 'Our Customers'
 caption: Inspire \| Dell Technologies
 description: >
