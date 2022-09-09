@@ -3,7 +3,7 @@
 # See also: <https://jsonresume.org/>.
 basics:
   name: "Renato Gusani"
-  label: "BSc Data Science"
+  label: "BSc Data Science Student | Aspiring Security Professional"
   email: "renato.gusani@outlook.com"
   website: "https://renatogusani.com"
   summary: >
@@ -20,7 +20,7 @@ basics:
       url: "https://www.linkedin.com/in/rgusani/"
 work:
   - company: "Dell Technologies"
-    position: "Cyber Srcurity Analyst Intern"
+    position: "Cyber Security Analyst Intern"
     startDate: "2022-02-07"
     endDate: "2022-08-26"
     summary: >
@@ -52,12 +52,27 @@ education:
     startDate: "2019-09-26"
     endDate: "2023-08-27"
     gpa: "3.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-
+awards:
+  - title: "Digital Compression Pioneer Award"
+    date: "2014-11-01"
+    awarder: "Techcrunch"
+    summary: "There is no spoon."
 references:
-  - name: "Claire Griffiths"
+  - name: "Claire Griffiths | University Relations Program Manager (EMEA) Dell Technologies"
     reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      Renato has been one of the stand out Interns in the Dell Technologies EMEA 2022 Internship program. 
+      He volunteered to be part of the Internship Core team and has added significant value as a team member and one of the communication leads, 
+      responsible for our biweekly newsletter. Renato has contributed so much to the program; he is one of the first to speak in a group setting, 
+      is reliable, has a great sense of humour and has supported his peers and colleagues throughout. Thank you Renato, its been a pleasure to work 
+      with you and we hope to see you at Dell Technologies again very soon!
+  - name: "Yael Noy | Talent Development Dell Technologies"
+    reference: >
+      It was a true pleasure getting to work with Renato during his Dell Technologies EMEA 2022 Internship program. 
+      Renato is highly motivated, driven, and creative. He volunteered to be part of the Internship Core team and has added substantial value 
+      to our core team and the internship program communication team. Renato delivered inventive solutions and completed the required tasks while 
+      meeting deadlines and establishing effective relationships with his colleagues. Thank you, Renato, for all your great work!
+  - name: "Aisling Brennan | Senior Consultant Dell technologies"
+    reference: >
+      Renato was a stand out intern at Dell 2022. He was engaged from Day 1, always enthusiastic and always willing to help. 
+      He got involved in as many activities as he could and was a go-to for the intern core team when we needed a volunteer. 
+      Renato was a sociable, energetic and hard working intern. I would love to work with him again in the future. 
