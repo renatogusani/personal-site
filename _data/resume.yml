@@ -4,9 +4,9 @@
 basics:
   name: "Renato Gusni"
   label: "BSc Data Science Student"
-#  picture: "https://via.placeholder.com/240x240"
+  picture: "https://via.placeholder.com/240x240"
   email: "renato.gusani@outlook.com"
-#  phone: "(912) 555-4321"
+  phone: "(912) 555-4321"
   website: "https://renatogusani.com"
   summary: >
     Aspiring security professional with 7 months of experience as a cybersecurity analyst intern at Dell Technologies.
@@ -14,21 +14,21 @@ basics:
     Renato enjoys connecting the dots: be it ideas from different disciplines, people from different teams, or applications from different industries. Renato has strong technical skills and an academic background in engineering, statistics, and programming.
     Graduating in August 2023 and interested in full-time cybersecurity roles. Please feel free to get in touch with me via email at renato.gusani@outlook.com
   location:
-#    postalCode: "CA 94115"
-#    city: "San Francisco"
+    postalCode: "CA 94115"
+    city: "San Francisco"
     countryCode: "IE"
     region: "Dublin"
   profiles:
-#    - network: "Twitter"
-#      username: "RHendricksCEO"
-#      url: ""
+    - network: "Twitter"
+      username: "RHendricksCEO"
+      url: ""
     - network: "LinkedIn"
       username: "Renato Gusani"
       url: "https://www.linkedin.com/in/rgusani/"
 work:
   - company: "Dell Technologies"
     position: "Cyber Security Analyst"
-#    website: "https://piedpiper.com"
+    website: "https://piedpiper.com"
     startDate: "2022-02-07"
     endDate: "2022-08-26"
     summary: >
@@ -67,33 +67,33 @@ awards:
     date: "2022-06-21"
     awarder: "Claire Griffiths"
     summary: "Thank you for your preparation and input into last week’s EMEA Intern onboarding session. We really appreciate you giving up your time to talk the Interns through your own internship experience and help them acclimatize into life at Dell. Thank you for your support in the Internship program! Claire & the EMEA Internship Core Team"
-#publications:
-#  - name: "Video compression for 3d media"
-#    publisher: "Inspire"
-#    releaseDate: "2022-21-06"
-#    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-#    summary: "Innovative middle-out compression algorithm that changes the way we store data."
-#skills:
-#  - name: "Web Development"
-#    level: "Master"
-#    keywords:
-#      - "HTML"
-#      - "CSS"
-#      - "Javascript"
-#  - name: "Compression"
-#    level: "Master"
-#    keywords:
-#      - "Mpeg"
-#      - "MP4"
-#      - "GIF"
-#languages:
-#  - language: "English"
-#    fluency: "Native speaker"
-#interests:
-#  - name: "Wildlife"
-#    keywords:
-#      - "Ferrets"
-#      - "Unicorns"
+publications:
+  - name: "Video compression for 3d media"
+    publisher: "Inspire"
+    releaseDate: "2022-21-06"
+    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+skills:
+  - name: "Web Development"
+    level: "Master"
+    keywords:
+      - "HTML"
+      - "CSS"
+      - "Javascript"
+  - name: "Compression"
+    level: "Master"
+    keywords:
+      - "Mpeg"
+      - "MP4"
+      - "GIF"
+languages:
+  - language: "English"
+    fluency: "Native speaker"
+interests:
+  - name: "Wildlife"
+    keywords:
+      - "Ferrets"
+      - "Unicorns"
 references:
   - name: "Aisling Brennan"
     reference: >
