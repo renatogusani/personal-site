@@ -2,102 +2,101 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "Renato Gusni"
+  label: "BSc Data Science Student"
+#  picture: "https://via.placeholder.com/240x240"
+  email: "renato.gusani@outlook.com"
+#  phone: "(912) 555-4321"
+  website: "https://renatogusani.com"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    Aspiring security professional with 7 months of experience as a cybersecurity analyst intern at Dell Technologies.
+    Data-driven and detail-oriented final year BSc data science student 2.1 average. Bringing top problem-solving skills and proven record in programming, statistics and machine learning.
+    Renato enjoys connecting the dots: be it ideas from different disciplines, people from different teams, or applications from different industries. Renato has strong technical skills and an academic background in engineering, statistics, and programming.
+    Graduating in August 2023 and interested in full-time cybersecurity roles. Please feel free to get in touch with me via email at renato.gusani@outlook.com
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
+#    postalCode: "CA 94115"
+#    city: "San Francisco"
+    countryCode: "IE"
+    region: "Dublin"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+#    - network: "Twitter"
+#      username: "RHendricksCEO"
+#      url: ""
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "Renato Gusani"
+      url: "https://www.linkedin.com/in/rgusani/"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
-    endDate: ""
+  - company: "Dell Technologies"
+    position: "Cyber Security Analyst"
+#    website: "https://piedpiper.com"
+    startDate: "2022-07-02"
+    endDate: "2022-26-08"
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      Key Responsiblities;
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "Monitored Organization's Servers for security breaches and investigated violations through using Imperva SecureSphere Database Activity Monitoring and Database Firewall."
+      - "Monitored Splunk Cyber Defense dashboards for any abnormalities and followed up with a solution appropriately."
+      - "Located database servers that did not have Solidcore enabled and followed up with database administrators for solution."
+      - "Identif ied an automation solution on an Imperva weekly procedure, utilizing Python programming, C# and Excel VBA saved the team 1 hour+ /wk of manual work and avoided human errors."
+      - "Maintained strong and positive connections with members of the business."
+      - "All phases of the Imperva automation project were directed while managing and inspiring the crew."
+      - "Collaboration with technical teams and outside partners to offer appropriate operational support for a variety of services."
+      - "All incidents and requests were handled in a timely and accurate manner."
+      - "Volunteered to be part of the EMEA Internship Core team and one of the communication leads responsibl for the bi-weekly newsletter."
 volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+  - organization: "CSinc.ie"
+    position: "Dell Cyber Intern Volunteer"
+    website: "http://csinc.ie"
+    startDate: "2022-07-02"
+    endDate: "2022-26-08"
+    summary: "CSinc activities are focused on improving the teaching and learning of Computer Science through student camps and workshops, research as well as Teacher CPD sessions on Content Knowledge and Pedagogical Content Knowledge."
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Alongside a group of Cybersecurity Interns, I directly led the format, design and graphics of the leaving certificate lessons we created which included, Presentation Slides, Teachers Transcript, Activity sheet and voice over for the entire 1 hour lessons.'"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+  - institution: "National College of Ireland"
+    area: "Data Science"
+    studyType: "Bachelor of Science"
+    startDate: "2019-27-09"
+    endDate: "2023-26-08"
+    gpa: "3.0"
     courses:
       - "DB1101 - Basic SQL"
       - "CS2011 - Java Introduction"
 awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
-skills:
-  - name: "Web Development"
-    level: "Master"
-    keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
-    keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
-languages:
-  - language: "English"
-    fluency: "Native speaker"
-interests:
-  - name: "Wildlife"
-    keywords:
-      - "Ferrets"
-      - "Unicorns"
+  - title: "EMEA Internship Onboarding - Intern Panel Award"
+    date: "2022-21-06"
+    awarder: "Claire Griffiths"
+    summary: "Thank you for your preparation and input into last week’s EMEA Intern onboarding session. We really appreciate you giving up your time to talk the Interns through your own internship experience and help them acclimatize into life at Dell. Thank you for your support in the Internship program! Claire & the EMEA Internship Core Team"
+#publications:
+#  - name: "Video compression for 3d media"
+#    publisher: "Inspire"
+#    releaseDate: "2022-21-06"
+#    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+#    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+#skills:
+#  - name: "Web Development"
+#    level: "Master"
+#    keywords:
+#      - "HTML"
+#      - "CSS"
+#      - "Javascript"
+#  - name: "Compression"
+#    level: "Master"
+#    keywords:
+#      - "Mpeg"
+#      - "MP4"
+#      - "GIF"
+#languages:
+#  - language: "English"
+#    fluency: "Native speaker"
+#interests:
+#  - name: "Wildlife"
+#    keywords:
+#      - "Ferrets"
+#      - "Unicorns"
 references:
-  - name: "Erlich Bachman"
+  - name: "Aisling Brennan"
     reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      Renato was a stand out intern at Dell 2022. He was engaged from Day 1, always enthusiastic and always willing to help. 
+      He got involved in as many activities as he could and was a go-to for the intern core team when we needed a volunteer. 
+      Renato was a sociable, energetic and hard working intern. I would love to work with him again in the future. 
