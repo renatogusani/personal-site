@@ -29,8 +29,8 @@ work:
   - company: "Dell Technologies"
     position: "Cyber Security Analyst"
 #    website: "https://piedpiper.com"
-    startDate: "2022-07-02"
-    endDate: "2022-26-08"
+    startDate: "2022-02-07"
+    endDate: "2022-08-26"
     summary: >
       Key Responsiblities;
     highlights:
@@ -56,15 +56,15 @@ education:
   - institution: "National College of Ireland"
     area: "Data Science"
     studyType: "Bachelor of Science"
-    startDate: "2019-27-09"
-    endDate: "2023-26-08"
+    startDate: "2019-09-27"
+    endDate: "2023-08-26"
     gpa: "3.0"
     courses:
       - "DB1101 - Basic SQL"
       - "CS2011 - Java Introduction"
 awards:
   - title: "EMEA Internship Onboarding - Intern Panel Award"
-    date: "2022-21-06"
+    date: "2022-06-21"
     awarder: "Claire Griffiths"
     summary: "Thank you for your preparation and input into last week’s EMEA Intern onboarding session. We really appreciate you giving up your time to talk the Interns through your own internship experience and help them acclimatize into life at Dell. Thank you for your support in the Internship program! Claire & the EMEA Internship Core Team"
 #publications:
