@@ -53,10 +53,10 @@ education:
     endDate: "2023-08-27"
     gpa: "3.0"
 awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
+  - title: "Shout Out Inspire Award"
+    date: "2022-06-21"
+    awarder: "Claire Griffiths | University Relations Program Manager (EMEA) Dell Technologies"
+    summary: "Thank you for your preparation and input into last week’s EMEA Intern onboarding session. We really appreciate you giving up your time to talk the Interns through your own internship experience and help them acclimatize into life at Dell. Thank you for your support in the Internship program! Claire & the EMEA Internship Core Team"
 references:
   - name: "Claire Griffiths | University Relations Program Manager (EMEA) Dell Technologies"
     reference: >
