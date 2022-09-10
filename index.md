@@ -13,12 +13,3 @@ Currently, I am working on my Final Year Project - [<strong>SpaceXplorer</strong
 
 ## **SITE UNDER CONSTRUCTION**
 
----
-layout: projects
-title: Projects
-show_collection: projects
-description: >
-  Selected Projects.
-no_groups: true
----
-
