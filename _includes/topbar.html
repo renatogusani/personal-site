@@ -1,0 +1,15 @@
+{%- comment -%}
+  Inner pages get a back bar, not a nav bar. The home page is the root screen
+  and every other page is one level down from it, so one back link is the whole
+  navigation. Same shape as an iOS detail screen.
+{%- endcomment -%}
+<div class="topbar">
+  <div class="wrap">
+    <a class="back" href="{{ '/' | relative_url }}">
+      <svg class="back-chev" width="9" height="15" viewBox="0 0 9 15" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" aria-hidden="true"><path d="M7.5 1.5l-6 6 6 6"/></svg>
+      {{ site.title }}
+    </a>
+  </div>
+</div>

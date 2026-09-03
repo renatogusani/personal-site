@@ -23,7 +23,8 @@ front end is:
 | File | What it does |
 |:--|:--|
 | `_layouts/default.html` | The only layout. Every page uses it. |
-| `_includes/nav.html` | Top navigation, driven by `nav:` in `_config.yml`. |
+| `_includes/topbar.html` | The back bar on every page except home. |
+| `_includes/socials.html` | Email, GitHub and LinkedIn icons on the home page. |
 | `_includes/group.html` | The grouped row list. Takes a `rows` array. |
 | `_includes/footer.html` | Footer and the dynamic copyright year. |
 | `assets/css/main.scss` | The only stylesheet. Palette, type and components. |
@@ -56,9 +57,15 @@ renders as plain text with no chevron.
 
 ### Design
 
-Dark only. Pure black ground, one raised surface for grouped rows, hairline
-separators, a single blue accent, system font stack, no webfonts and no
-JavaScript beyond the two lines that keep the copyright year honest.
+Dark only, on Apple's elevated dark greys rather than pure black: a lifted
+near black ground with one raised surface for grouped rows, hairline separators,
+a single blue accent, system font stack, no webfonts and no JavaScript beyond
+the two lines that keep the copyright year honest.
+
+Navigation follows the iOS root and detail pattern. The home page is the root
+screen: name, one grey line, then everything else as a tappable list. Every
+other page sits one level below it and carries a single back link, so there is
+no nav bar to maintain.
 
 Every text colour in `main.scss` is annotated with its contrast ratio and clears
 WCAG AA. CI does not check that, so if you change the palette, check it.

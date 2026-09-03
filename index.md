@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Security engineer who builds the tooling
+home: true
+title: Renato Gusani
 description: >
   Security engineer at IBM Security, building Python and MCP tooling for attack
   surface management. Founder of VNTA Group. Dublin, Ireland.
@@ -16,22 +17,39 @@ now:
     meta: "SpaceX and NASA APOD APIs · 2023"
     url: https://spacexplorer.info
     ext: true
+sections:
+  - name: Work
+    meta: IBM, VNTA Group, and what came before
+    url: /work/
+  - name: Projects
+    meta: SpaceXplorer
+    url: /projects/
+  - name: About
+    meta: Background, education, and what I care about
+    url: /about/
+  - name: Contact
+    meta: Email, LinkedIn, GitHub, CV
+    url: /contact/
 ---
 
-# Security engineer who builds the tooling
+<header class="home-head">
+  <h1 class="home-name">Renato Gusani</h1>
+  <p class="home-tagline">Security engineer at IBM. Founder, VNTA Group. Dublin, Ireland.</p>
+</header>
 
-I build Python automation and detection logic for attack surface management at
-IBM Security, on Randori, part of the QRadar suite. I am the sole Ireland based
-engineer on the team, and most of what I ship is tooling: CLI utilities, MCP
-servers and agent integrations that turn repetitive security workflows into
-something clean and repeatable.
-{:.lede}
-
-Alongside that I run VNTA Group, a portfolio of premium ventures in Dublin,
-where I lead strategy, brand and operations.
+I build Python automation and detection logic for attack surface management on
+Randori, part of IBM's QRadar suite. Most of what I ship is tooling: CLI
+utilities, MCP servers and agent integrations.
 {:.lede}
 
 Now
 {:.label}
 
 {% include group.html rows=page.now %}
+
+Sections
+{:.label}
+
+{% include group.html rows=page.sections %}
+
+{% include socials.html %}

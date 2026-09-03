@@ -19,21 +19,10 @@ author:
   name:                Renato Gusani
   email:               renato@vnta.xyz
 
-# Dark only. Used for the browser UI colour and the app manifest.
-theme_color:           '#000000'
-background_color:      '#000000'
-
-nav:
-  - title:             Home
-    url:               /
-  - title:             Work
-    url:               /work/
-  - title:             Projects
-    url:               /projects/
-  - title:             About
-    url:               /about/
-  - title:             Contact
-    url:               /contact/
+# Dark only. Used for the browser UI colour and the app manifest splash.
+# Matches $bg in assets/css/main.scss.
+theme_color:           '#1c1c1e'
+background_color:      '#1c1c1e'
 
 permalink:             /:title/
 
