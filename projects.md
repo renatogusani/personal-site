@@ -20,9 +20,9 @@ redirect_from:
   - /projects/statistical_analyses/
 ventures:
   - name: Vendr
-    meta: "vendr.ie · Premium managed vending"
+    meta: "vendr.ie · Premium managed vending, pre-launch"
     image: /assets/img/projects/vendr.jpg
-    alt: "The Vendr wordmark in white on black, above the line: premium vending, Ireland, Spring 2026."
+    alt: "The Vendr site: the wordmark in white on black, an email field, and the line: one message when we open, no noise. Marked pre-launch, Spring 2026."
     url: https://vendr.ie
   - name: Éirvox
     meta: "eirvox.ie · Carbon steering wheels and curated goods"
@@ -30,14 +30,14 @@ ventures:
     alt: "The ÉIRVOX wordmark letterspaced in off white on black, above the line: carbon steering wheels, Dublin, Ireland."
     url: https://eirvox.ie
   - name: Maison Seul
-    meta: "maisonseul.com · House of absence"
+    meta: "maisonseul.com · House of absence, unlaunched"
     image: /assets/img/projects/maisonseul.jpg
-    alt: "The Maison Seul mark, a thin circle around a single dot, above the wordmark and the line: house of absence."
+    alt: "The Maison Seul site: the wordmark letterspaced in off white on near black, the line house of absence, Dublin listed with two redacted cities, and Coming MMXXVII."
     url: https://maisonseul.com
   - name: SpaceXplorer
     meta: "spacexplorer.info · Final year project, 2023"
     image: /assets/img/projects/spacexplorer.jpg
-    alt: "The SpaceXplorer site, headed: spaceflight went quiet for thirty years, then 2021 broke the space race record. Below it four figures: 4,630 launch attempts, 157 launches in 2021, 89.9 percent mission success, 44.5 percent Soviet or Russian."
+    alt: "The SpaceXplorer site, headed: spaceflight went quiet for thirty years, then 2021 broke the space race record, above a summary of every orbital launch attempt from 1957 to 2022."
     url: https://spacexplorer.info
 ---
 

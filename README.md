@@ -77,25 +77,30 @@ WCAG AA. CI does not check that, so if you change the palette, check it.
 `cv-reference.md` backs every claim on the site. It is excluded from the build.
 If something is not in that file, it does not belong on a page.
 
-## Where the brand assets came from
+## Where the project images came from
 
-The project card images and the small row marks are each venture's own
-artwork, pulled from their repositories rather than recreated:
+Each card is a screenshot of that site's own current build, taken by cloning
+the repository, building it and capturing the rendered page at 1200x630. Not
+the repositories' stored `og` images, which were out of date.
 
-| Asset | Source |
+| Card | Built from |
 |:--|:--|
-| `img/projects/vendr.jpg` | `Vantaneant-International-Ltd/vendr` `static/og.png` |
-| `img/projects/eirvox.jpg` | `Vantaneant-International-Ltd/eirvox` `public/og-image.png` |
-| `img/projects/spacexplorer.jpg` | `renatogusani/SpaceXplorer` `images/og-card.png` |
-| `img/marks/*.png` | each repo's `favicon.svg`, plus Éirvox `public/brand/symbol.png` |
+| `img/projects/vendr.jpg` | `Vantaneant-International-Ltd/vendr`, SvelteKit |
+| `img/projects/maisonseul.jpg` | `Vantaneant-International-Ltd/maisonseul`, SvelteKit |
+| `img/projects/spacexplorer.jpg` | `renatogusani/SpaceXplorer`, Jekyll |
 
-`img/projects/maisonseul.jpg` is the exception. That repo ships no preview
-card, so it is composed here from Maison Seul's own wordmark, descriptor
-("house of absence"), mark and palette (`#0b0907` on `#e9e0d2`), all read out
-of `Vantaneant-International-Ltd/maisonseul`. Replace it if a real card
-appears upstream.
+Vendr's consent notice is hidden for the capture. It is chrome, not design.
 
-All four are 1200x630, served as JPEG at 2x for a card about 600px wide.
+**`img/projects/eirvox.jpg` is the exception and is still the repository's
+`public/og-image.png`.** That app will not boot without Supabase credentials
+and its bootstrap also needs outbound network, so it cannot be rendered the
+same way. Replace it with a real screenshot of eirvox.ie.
+
+The small row marks in `img/marks/` are each repository's `favicon.svg`, plus
+Éirvox's `public/brand/symbol.png`.
+
+To refresh a card: clone the repo, `npm ci && npm run build`, serve the output,
+and screenshot at a 1200x630 viewport at 2x.
 
 ## SEO
 

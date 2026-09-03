@@ -51,8 +51,8 @@ person:
 
 # Dark only. Used for the browser UI colour and the app manifest splash.
 # Matches $bg in assets/css/main.scss.
-theme_color:           '#1c1c1e'
-background_color:      '#1c1c1e'
+theme_color:           '#000000'
+background_color:      '#000000'
 
 permalink:             /:title/
 
