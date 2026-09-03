@@ -24,15 +24,19 @@ sections:
   - name: Work
     meta: IBM, VNTA Group, and what came before
     url: /work/
+    icon: work
   - name: Projects
     meta: "Vendr, Éirvox, Maison Seul, SpaceXplorer"
     url: /projects/
+    icon: projects
   - name: About
     meta: Background, education, and what I care about
     url: /about/
+    icon: about
   - name: Contact
     meta: Email, LinkedIn, GitHub, CV
     url: /contact/
+    icon: mail
 ---
 
 <header class="home-head">

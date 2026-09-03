@@ -7,6 +7,7 @@
     url   optional, makes the row a link and adds a chevron
     ext   optional, true for links that leave the site
     mark  optional, path to a small square brand mark shown before the text
+    icon  optional, a glyph name from glyph.html, for rows with no brand mark
 {%- endcomment -%}
 <ul class="group">
   {%- for row in include.rows -%}
@@ -15,6 +16,8 @@
       {%- else -%}<div class="row-inner">{%- endif -%}
         {%- if row.mark -%}
           <img class="row-mark" src="{{ row.mark | relative_url }}" alt="" width="26" height="26" loading="lazy" decoding="async">
+        {%- elsif row.icon -%}
+          {% include glyph.html name=row.icon %}
         {%- endif -%}
         <span class="row-text">
           <span class="row-name">{{ row.name }}</span>

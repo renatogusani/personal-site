@@ -8,17 +8,21 @@ links:
   - name: renato@vnta.xyz
     meta: Email, and the best way to reach me
     url: mailto:renato@vnta.xyz
+    icon: mail
   - name: linkedin.com/in/rgusani
     meta: LinkedIn
     url: https://www.linkedin.com/in/rgusani/
     ext: true
+    icon: linkedin
   - name: github.com/renatogusani
     meta: GitHub
     url: https://github.com/renatogusani
     ext: true
+    icon: github
   - name: Download my CV
     meta: "PDF · updated September 2026"
     url: /assets/Renato-Gusani-CV.pdf
+    icon: document
 ---
 
 # Contact

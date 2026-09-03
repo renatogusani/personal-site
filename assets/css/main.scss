@@ -366,6 +366,18 @@ a.row-inner {
 
 .entry-mark + .when { margin-top: 0; }
 
+// A line glyph stands in the same slot as a brand mark, but stays grey and
+// untiled so navigation rows never compete with a real app icon.
+.row-glyph {
+  flex: 0 0 auto;
+  width: 1.625rem;
+  height: 1.625rem;
+  color: $fg3;
+  display: block;
+}
+
+a.row-inner:hover .row-glyph { color: $fg; }
+
 .row-mark {
   flex: 0 0 auto;
   width: 1.625rem;

@@ -115,23 +115,38 @@ requests, and the capture matches the live page:
 ### Marks
 
 `img/marks/` holds the small square marks used on the home page rows and above
-each role on Work. All 96px, all on a dark tile so they sit as one set.
+each role on Work. All 96px on a dark tile, so they sit together as one set and
+read at their display size of 26px.
 
 | Mark | Source |
 |:--|:--|
-| `vendr`, `maisonseul`, `spacexplorer` | each repository's `favicon.svg` |
-| `eirvox` | `eirvox` `public/brand/symbol-orange.png` |
-| `vnta` | `Vantaneant-International-Ltd/vnta` `static/symbol.svg` |
-| `ibm` | the `@iconify-json/logos` set |
-| `dell` | the `simple-icons` package |
+| `vendr`, `maisonseul`, `spacexplorer` | each repository's own `favicon.svg` |
+| `eirvox` | `eirvox` `public/apple-touch-icon.png`, its real app icon |
+| `vnta` | `vnta` `static/wordmark.svg` |
+| `ibm` | the `@iconify-json/logos` set, on IBM blue |
+| `dell` | the `simple-icons` package, on Dell blue |
 
-IBM and Dell are rendered as flat white silhouettes via CSS `mask-image`, which
-keeps a multi-path logo from coming out half-coloured. They identify a real
-employer and link nowhere: sending a reader to ibm.com is a link off the site
-for no return. The home page rows point at `/work/#ibm` instead.
+Prefer a project's real favicon or app icon over anything reconstructed. Two
+choices worth recording:
+
+- **VNTA uses its wordmark, not its symbol.** The sunburst is thin radiating
+  rays, which collapse into a grey dot at 26px. "VNTA" stays legible.
+- **IBM and Dell have no reachable official favicon**, so the authentic logo
+  path is set in white on the brand's own blue. They identify a real employer
+  and link nowhere: sending a reader to ibm.com is a link off the site for no
+  return. The home page rows point at `/work/#ibm` instead.
 
 Brown Thomas Arnotts has no mark. No official asset was available and drawing
 an approximation of someone's trademark is worse than leaving the space empty.
+
+### Glyphs
+
+Rows with no brand of their own take a line glyph from `_includes/glyph.html`
+instead: `work`, `projects`, `about`, `mail`, `github`, `linkedin`, `document`.
+Grey and unfilled, so a navigation row never competes with a real app icon
+beside it. Same split as iOS Settings, where app rows carry icons and system
+rows carry glyphs.
+
 
 ## SEO
 
