@@ -1,15 +1,33 @@
 ---
 layout: page
-title: Hi There!
+title: Security engineer who builds the tooling
+description: >
+  Security engineer at IBM Security, building Python and MCP tooling for attack
+  surface management. Founder of VNTA Group. Dublin, Ireland.
+hide_description: true
 sitemap: true
+permalink: /
 ---
 
-Hi, I'm [Renato](https://www.linkedin.com/in/rgusani/). Final Year [<strong>BSc Data Science</strong>](https://github.com/renatogusani/BSc-Data-Science) Student at the National College of Ireland.
+I build Python automation and detection logic for attack surface management at
+IBM Security, on Randori, part of the QRadar suite. I am the sole Ireland based
+engineer on the team, and most of what I ship is tooling: CLI utilities, MCP
+servers and agent integrations that turn repetitive security workflows into
+something clean and repeatable.
 
-Previously, I was a Cybersecurity Intern @Dell Technologies, from Feb 2022 - Aug 2022. Over the course of these 6 months I worked remotely for the Limerick, IE, Security & Resiliency Organization within the Cyber Defense Data-Protection team, on a variety of tools, such as [Splunk](https://www.splunk.com/), [Imperva](https://www.imperva.com/), & [McAfee Solidcore](https://www.mcafee.com/enterprise/en-us/assets/data-sheets/ds-application-control.pdf).
+Alongside that I run [VNTA Group](/work/#vnta-group), a portfolio of premium
+ventures in Dublin, where I lead strategy, brand and operations.
 
-Currently, I am working on my Final Year Project - [<strong>SpaceXplorer</strong>](https://spacexplorer.info/). In this project, I explore the [Unofficial SpaceX API](https://github.com/r-spacex/SpaceX-API) & [Official NASA API](https://api.nasa.gov) with Data Science and provide a framework where you can also explore the data with your own analysis.
+## Now
+{:.figcaption}
 
+**IBM Security**, since January 2024. Detection rules, regex based service
+fingerprinting and CPE vulnerability correlation for Randori.
 
-## **SITE UNDER CONSTRUCTION**
+**VNTA Group**, since November 2024. Parent company behind Vendr, Éirvox and
+Maison Seul.
 
+**[SpaceXplorer](https://spacexplorer.info)**, 2023. The SpaceX and NASA APOD
+APIs explored with data science, published as an open source site.
+
+[See the work](/work/){:.heading.flip-title}
