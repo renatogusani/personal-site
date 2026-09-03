@@ -22,7 +22,7 @@ sections:
     meta: IBM, VNTA Group, and what came before
     url: /work/
   - name: Projects
-    meta: SpaceXplorer
+    meta: "Vendr, Éirvox, Maison Seul, SpaceXplorer"
     url: /projects/
   - name: About
     meta: Background, education, and what I care about

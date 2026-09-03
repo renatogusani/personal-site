@@ -81,14 +81,14 @@ Parent company behind Vendr, Éirvox and Maison Seul. Leads strategy, brand and
 operations across the group, building shared infrastructure so each company scales
 on common foundations while keeping its own identity.
 
-- **Vendr** (Jan 2026 to present): premium, fully managed vending for modern
+- **Vendr** (Jan 2026 to present), vendr.ie: premium, fully managed vending for modern
   workplaces and shared spaces. Strategy, partnerships and rollout across Vendr Pass
   and Vendr Select. Design led placement, operational reliability, scalable growth.
   The machine is treated as infrastructure, not retail.
-- **Éirvox** (Oct 2025 to present): a curated marketplace for premium goods in
+- **Éirvox** (Oct 2025 to present), eirvox.ie: a curated marketplace for premium goods in
   Ireland, built for discovery and considered buying. Product, brand and engineering
   direction, from visual identity to platform architecture and seller experience.
-- **Maison Seul** (Jul 2025 to present): a slower, longevity focused house.
+- **Maison Seul** (Jul 2025 to present), maisonseul.com: a slower, longevity focused house.
 
 ## Projects
 

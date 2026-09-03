@@ -7,11 +7,17 @@ description: >
 permalink: /work/
 ventures:
   - name: Vendr
-    meta: "Premium managed vending for modern workplaces · since January 2026"
+    meta: "vendr.ie · Premium managed vending for workplaces · since January 2026"
+    url: https://vendr.ie
+    ext: true
   - name: Éirvox
-    meta: "A curated marketplace for premium goods in Ireland · since October 2025"
+    meta: "eirvox.ie · A curated marketplace for premium goods · since October 2025"
+    url: https://eirvox.ie
+    ext: true
   - name: Maison Seul
-    meta: "A slower, longevity focused house · since July 2025"
+    meta: "maisonseul.com · A slower, longevity focused house · since July 2025"
+    url: https://maisonseul.com
+    ext: true
 volunteering:
   - name: Dell Technologies
     meta: "TecKno.dell.com content, EMEA intern onboarding panel, Transition Year mentor · 2022"
