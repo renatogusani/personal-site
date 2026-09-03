@@ -20,14 +20,14 @@ redirect_from:
   - /projects/statistical_analyses/
 ventures:
   - name: Vendr
-    meta: "vendr.ie · Premium managed vending, pre-launch"
+    meta: "vendr.ie · Premium managed vending for workplaces"
     image: /assets/img/projects/vendr.jpg
-    alt: "The Vendr site: the wordmark in white on black, an email field, and the line: one message when we open, no noise. Marked pre-launch, Spring 2026."
+    alt: "The Vendr site: the wordmark and nav on an off white ground, above the line: a quieter form of retail, a short Irish first list, machines that simply work. Below it, approach Irish first, placement workplaces and hospitality, launching Spring 2026."
     url: https://vendr.ie
   - name: Éirvox
-    meta: "eirvox.ie · Carbon steering wheels and curated goods"
+    meta: "eirvox.ie · Carbon steering wheels, finished in Dublin"
     image: /assets/img/projects/eirvox.jpg
-    alt: "The ÉIRVOX wordmark letterspaced in off white on black, above the line: carbon steering wheels, Dublin, Ireland."
+    alt: "The ÉIRVOX site: the headline carbon steering wheels, finished in Dublin, over a large fox mark on black, with an email field marked first access."
     url: https://eirvox.ie
   - name: Maison Seul
     meta: "maisonseul.com · House of absence, unlaunched"
@@ -55,7 +55,8 @@ VNTA Group
 I lead strategy, brand and engineering direction across Vendr, Éirvox and
 Maison Seul, on shared infrastructure so each scales on common foundations
 while keeping its own identity. Vendr treats the machine as infrastructure
-rather than retail. Éirvox is built for discovery and considered buying.
+rather than retail, launching in Ireland in Spring 2026. Éirvox makes a small
+line of carbon steering wheels, designed in Ireland and finished in Dublin.
 Maison Seul is deliberately quiet, and has not launched.
 
 SpaceXplorer

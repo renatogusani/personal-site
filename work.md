@@ -12,7 +12,7 @@ ventures:
     ext: true
     mark: /assets/img/marks/vendr.png
   - name: Éirvox
-    meta: "eirvox.ie · A curated marketplace for premium goods · since October 2025"
+    meta: "eirvox.ie · Carbon steering wheels, finished in Dublin · since October 2025"
     url: https://eirvox.ie
     ext: true
     mark: /assets/img/marks/eirvox.png

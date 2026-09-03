@@ -79,28 +79,35 @@ If something is not in that file, it does not belong on a page.
 
 ## Where the project images came from
 
-Each card is a screenshot of that site's own current build, taken by cloning
-the repository, building it and capturing the rendered page at 1200x630. Not
-the repositories' stored `og` images, which were out of date.
+Each card is a screenshot of that site's own current build: clone the repo,
+`npm ci && npm run build`, serve the output, capture at a 1200x630 viewport at
+2x. Not the repositories' stored `og` images, which were out of date.
 
-| Card | Built from |
-|:--|:--|
-| `img/projects/vendr.jpg` | `Vantaneant-International-Ltd/vendr`, SvelteKit |
-| `img/projects/maisonseul.jpg` | `Vantaneant-International-Ltd/maisonseul`, SvelteKit |
-| `img/projects/spacexplorer.jpg` | `renatogusani/SpaceXplorer`, Jekyll |
+| Card | Built from | Route captured |
+|:--|:--|:--|
+| `vendr.jpg` | `Vantaneant-International-Ltd/vendr`, SvelteKit | `/?preview=live` |
+| `eirvox.jpg` | `Vantaneant-International-Ltd/eirvox`, Vite + Svelte | `/#/coming-soon` |
+| `maisonseul.jpg` | `Vantaneant-International-Ltd/maisonseul`, SvelteKit | `/` |
+| `spacexplorer.jpg` | `renatogusani/SpaceXplorer`, Jekyll | `/` |
 
-Vendr's consent notice is hidden for the capture. It is chrome, not design.
+Two gates are bypassed deliberately, using each app's own mechanism rather
+than a patch:
 
-**`img/projects/eirvox.jpg` is the exception and is still the repository's
-`public/og-image.png`.** That app will not boot without Supabase credentials
-and its bootstrap also needs outbound network, so it cannot be rendered the
-same way. Replace it with a real screenshot of eirvox.ie.
+- Vendr defaults to `PUBLIC_SITE_MODE=coming_soon`. Its page component accepts
+  `?preview=live`, which renders `LiveHome` instead of the teaser.
+- Éirvox will not boot without Supabase credentials, but it exposes
+  `/#/coming-soon` as an always-reachable gate page that renders without them.
+
+Vendr's consent notice (`aside.cb`) is hidden for the capture. It is chrome,
+not design.
+
+Caveat: this environment has no outbound network, so any webfont a site pulls
+from Google Fonts falls back. Éirvox (Inter Tight, JetBrains Mono, Newsreader)
+is the one affected; its headline renders in a system grotesque rather than
+Inter Tight. Vendr, Maison Seul and SpaceXplorer are unaffected.
 
 The small row marks in `img/marks/` are each repository's `favicon.svg`, plus
 Éirvox's `public/brand/symbol.png`.
-
-To refresh a card: clone the repo, `npm ci && npm run build`, serve the output,
-and screenshot at a 1200x630 viewport at 2x.
 
 ## SEO
 
