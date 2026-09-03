@@ -10,7 +10,8 @@ baseurl:               ''
 lang:                  en
 
 title:                 Renato Gusani
-tagline:               Security Engineer at IBM. Founder, VNTA Group.
+# Used by jekyll-seo-tag in the home page <title>, so it reads as a search result.
+tagline:               Security Engineer at IBM, Founder of VNTA Group, Dublin
 description:           >
   Security engineer at IBM Security, building Python and MCP tooling for attack
   surface management. Founder of VNTA Group. Dublin, Ireland.
@@ -18,6 +19,35 @@ description:           >
 author:
   name:                Renato Gusani
   email:               renato@vnta.xyz
+
+# The card image for Google, LinkedIn, Slack and iMessage previews. Applied to
+# every page through `defaults` below, since jekyll-seo-tag reads it per page.
+image:                 /assets/img/og.png
+
+twitter:
+  card:                summary_large_image
+
+# Feeds the Person structured data in _includes/schema.html.
+person:
+  job_title:           Security Engineer
+  employer:            IBM
+  employer_url:        https://www.ibm.com/
+  alumni_of:           National College of Ireland
+  alumni_of_url:       https://www.ncirl.ie/
+  locality:            Dublin
+  country:             IE
+  knows_about:
+    - Attack surface management
+    - Detection engineering
+    - Security automation
+    - Python
+    - Model Context Protocol
+    - Threat analysis
+    - Data science
+  same_as:
+    - https://www.linkedin.com/in/rgusani/
+    - https://github.com/renatogusani
+    - https://spacexplorer.info
 
 # Dark only. Used for the browser UI colour and the app manifest splash.
 # Matches $bg in assets/css/main.scss.
@@ -31,6 +61,10 @@ plugins:
   - jekyll-sitemap
 
 defaults:
+  - scope:
+      path:            ''
+    values:
+      image:           /assets/img/og.png
   - scope:
       path:            assets/
     values:

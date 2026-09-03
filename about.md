@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: "About: background, education and how I work"
 description: >
   Background, education, and what I care about building.
 permalink: /about/

@@ -1,0 +1,53 @@
+{%- comment -%}
+  Person and WebSite structured data.
+
+  jekyll-seo-tag emits WebPage level markup. This adds the Person that the whole
+  site is about, which is what Google uses to build a knowledge panel and to
+  connect this domain to the LinkedIn and GitHub profiles. Emitted on the home
+  page only: repeating an identical Person on every page adds nothing.
+{%- endcomment -%}
+{%- assign p = site.person -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#person",
+      "name": {{ site.author.name | jsonify }},
+      "url": "{{ site.url }}/",
+      "image": "{{ site.image | absolute_url }}",
+      "email": "mailto:{{ site.author.email }}",
+      "jobTitle": {{ p.job_title | jsonify }},
+      "description": {{ site.description | strip_newlines | strip | jsonify }},
+      "worksFor": {
+        "@type": "Organization",
+        "name": {{ p.employer | jsonify }},
+        "url": {{ p.employer_url | jsonify }}
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": {{ p.alumni_of | jsonify }},
+        "url": {{ p.alumni_of_url | jsonify }}
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": {{ p.locality | jsonify }},
+        "addressCountry": {{ p.country | jsonify }}
+      },
+      "knowsAbout": {{ p.knows_about | jsonify }},
+      "sameAs": {{ p.same_as | jsonify }}
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}/",
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | strip_newlines | strip | jsonify }},
+      "inLanguage": "{{ site.lang }}",
+      "publisher": { "@id": "{{ site.url }}/#person" },
+      "about": { "@id": "{{ site.url }}/#person" }
+    }
+  ]
+}
+</script>

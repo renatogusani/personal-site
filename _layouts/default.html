@@ -6,9 +6,22 @@
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="{{ site.theme_color }}">
 
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+
+  {%- comment -%}
+    jekyll-seo-tag emits the title, description, canonical, og:image and the
+    twitter card. Only the things it does not cover are added by hand below.
+  {%- endcomment -%}
   {% seo %}
 
-  <link rel="icon" href="{{ '/assets/icons/favicon.ico' | relative_url }}" sizes="any">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Renato Gusani. Security Engineer at IBM, on Randori. Founder, VNTA Group. Dublin, Ireland.">
+
+  {%- if page.home %}{% include schema.html %}{% endif -%}
+
+  <link rel="icon" href="{{ '/assets/icons/favicon.ico' | relative_url }}" sizes="32x32">
+  <link rel="icon" href="{{ '/assets/icons/icon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="apple-touch-icon" href="{{ '/assets/icons/icon-192x192.png' | relative_url }}">
   <link rel="manifest" href="{{ '/assets/site.webmanifest' | relative_url }}">
 

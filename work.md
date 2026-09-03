@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Work
+title: "Security engineering at IBM, and VNTA Group"
 description: >
   Security engineering at IBM on Randori, founding VNTA Group, and earlier
   internships at Dell Technologies and Brown Thomas Arnotts.

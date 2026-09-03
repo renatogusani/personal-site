@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact
+title: "Contact: email, LinkedIn, GitHub, CV"
 description: >
   Get in touch by email, or find me on LinkedIn and GitHub.
 permalink: /contact/

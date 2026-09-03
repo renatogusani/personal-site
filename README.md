@@ -25,6 +25,7 @@ front end is:
 | `_layouts/default.html` | The only layout. Every page uses it. |
 | `_includes/topbar.html` | The back bar on every page except home. |
 | `_includes/socials.html` | Email, GitHub and LinkedIn icons on the home page. |
+| `_includes/schema.html` | Person and WebSite structured data, home page only. |
 | `_includes/group.html` | The grouped row list. Takes a `rows` array. |
 | `_includes/footer.html` | Footer and the dynamic copyright year. |
 | `assets/css/main.scss` | The only stylesheet. Palette, type and components. |
@@ -74,6 +75,32 @@ WCAG AA. CI does not check that, so if you change the palette, check it.
 
 `cv-reference.md` backs every claim on the site. It is excluded from the build.
 If something is not in that file, it does not belong on a page.
+
+## SEO
+
+`jekyll-seo-tag` handles titles, descriptions, canonical URLs, OpenGraph and the
+Twitter card. On top of that:
+
+- `_includes/schema.html` emits Person and WebSite JSON-LD on the home page,
+  with `sameAs` pointing at LinkedIn, GitHub and SpaceXplorer. This is what
+  connects the domain to those profiles in Google's eyes.
+- `assets/img/og.png` is the 1200x630 preview card, applied to every page
+  through `defaults` in `_config.yml`. Regenerate it if the role changes.
+- Page `title` in front matter is search facing only. The visible heading comes
+  from the markdown `#`, so titles can be written for a search result without
+  affecting the page.
+- `jekyll-sitemap` writes `sitemap.xml` and `robots.txt`.
+
+Submit the sitemap once at
+[Google Search Console](https://search.google.com/search-console): add
+`https://renatogusani.com/sitemap.xml` under Sitemaps.
+
+## Icons
+
+`assets/icons/icon.svg` is the primary favicon, a vector R on the site's ground
+colour. `favicon.ico` is the raster fallback at 16, 32 and 48. The PNGs are
+full bleed squares because the manifest declares them maskable, so the platform
+applies the rounding.
 
 ## License
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: "Projects: SpaceXplorer"
 description: >
   SpaceXplorer, exploring the SpaceX and NASA APOD APIs with data science and
   machine learning.
