@@ -33,6 +33,13 @@ li { margin:0 0 2.6pt; }
 .skill dd { margin:0; }
 dl { margin:0 0 2pt; }
 
+/* Page breaks: never strand a heading at the foot of a page, and never split
+   a role across two. */
+h2, h3, .meta { break-after: avoid-page; page-break-after: avoid; }
+.entry { break-inside: avoid-page; page-break-inside: avoid; }
+li { break-inside: avoid-page; page-break-inside: avoid; }
+h2 { break-inside: avoid-page; }
+
 .inline { font-size:9.2pt; }
 .tight { margin-bottom:3pt; }
 </style></head><body>
