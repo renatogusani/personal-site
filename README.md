@@ -132,7 +132,7 @@ each role on Work, displayed at 26px.
 |:--|:--|
 | `eirvox` | `eirvox` `public/favicon-192.png`, the real favicon: fox orange on transparent |
 | `vendr`, `spacexplorer` | each repository's own `favicon.svg` |
-| `vnta` | `vnta` `static/wordmark.svg` |
+| `vnta` | the VNTA symbol, dark rays on white |
 | `ibm` | the `@iconify-json/logos` set, on IBM blue |
 | `dell` | the `simple-icons` package, on Dell blue |
 
@@ -145,8 +145,10 @@ alternative. Three things worth recording:
 - **Maison Seul has no mark.** It has no real favicon. The circle and dot in
   its repo is a legacy asset and is not used here. It gets no mark rather than
   a wrong one, and it has no wordmark to fall back on.
-- **VNTA uses its wordmark, not its symbol.** The sunburst is thin radiating
-  rays and collapses to a grey dot at 26px.
+- **VNTA uses its symbol on a white tile.** Reversed white on black the thin
+  rays collapse into a grey dot at 26px, which is why the wordmark was used
+  first. Dark rays on white hold the detail at that size, so the symbol works
+  after all.
 - **IBM and Dell have no reachable official favicon**, so the authentic logo
   path is set in white on the brand's own blue. They link nowhere: the home
   page rows point at `/work/#ibm` instead.
