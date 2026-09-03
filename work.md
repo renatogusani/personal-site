@@ -66,17 +66,19 @@ Randori, an IBM company · Ireland · January 2024 to present
 {:#ibm}
 
 Randori is an attack surface management product, part of IBM's QRadar suite. I
-work on the detection side of it and on the tooling around it, as the sole
-Ireland based engineer on the team.
+work on the detection side of it and on the tooling the team runs on.
 
 * Build Python CLI tooling and MCP based agent workflows that streamline
   detection and targeting, plus scripts that automate data collection.
-* Write regex rules that fingerprint software, services and versions, then
-  correlate what is found against known vulnerabilities through CPE mappings.
-* Develop detection rules independently, improving customer security posture.
+* Write regular expression rules that fingerprint software, services and
+  versions, then correlate findings against known vulnerabilities using CPE
+  mappings and scoring frameworks, supporting vulnerability risk mitigation.
+* Develop and ship detection rules with the wider Randori team, improving
+  security posture across the customer base.
 * Identify attack vectors such as exposed login fields, directory listings and
-  default installations, and recommend mitigations.
-* Support customer and sales teams with technical troubleshooting.
+  default installations, and recommend mitigations to reduce customer exposure.
+* Partner with customer success and sales engineering on technical
+  troubleshooting.
 
 Also volunteered on the Dublin Lab Social and Technical Events Board.
 

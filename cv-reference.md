@@ -25,11 +25,12 @@ renatogusani.com
 
 ## Profile
 
-Security engineer at Randori, an IBM company, building Python automation and
-detection logic for attack surface management (Randori is part of IBM's QRadar
-suite) as the sole Ireland based engineer on the team. Designs and ships MCP servers and agent
-integrations that turn repetitive workflows into clean tooling. Outside work,
-runs VNTA Group, a portfolio of premium ventures.
+Cyber security engineer at Randori, an IBM company, working on attack surface
+management within the IBM QRadar suite. Builds the Python automation, CLI
+tooling and MCP based agent workflows the detection team runs on, writes the
+fingerprinting rules that identify exposed software and services, and
+correlates findings against CVE and CPE data so customers can prioritise
+remediation. Outside work, runs VNTA Group, a portfolio of premium ventures.
 
 Open to software, AI tooling, and security engineering roles. Based in Dublin.
 
@@ -49,8 +50,8 @@ Randori, an IBM company. Ireland, Hybrid. Jan 2024 to present.
 
 - Build Python CLI tooling and MCP based agent workflows that streamline detection
   and targeting, and scripts that automate data collection.
-- Sole Ireland based engineer on the team, independently developing detection rules
-  that improve customer security posture.
+- Develop and ship detection rules with the wider Randori team, improving security
+  posture across the customer base.
 - Write regex rules that fingerprint software, services and versions, then correlate
   findings with known vulnerabilities via CPE mappings.
 - Identify attack vectors such as exposed login fields, directory listings and
@@ -81,14 +82,12 @@ Parent company behind Vendr, Éirvox and Maison Seul. Leads strategy, brand and
 operations across the group, building shared infrastructure so each company scales
 on common foundations while keeping its own identity.
 
-- **Vendr** (Jan 2026 to present), vendr.ie: premium, fully managed vending for modern
-  workplaces and shared spaces. Strategy, partnerships and rollout across Vendr Pass
-  and Vendr Select. Design led placement, operational reliability, scalable growth.
-  The machine is treated as infrastructure, not retail.
-- **Éirvox** (Oct 2025 to present), eirvox.ie: a curated marketplace for premium goods in
-  Ireland, built for discovery and considered buying. Product, brand and engineering
-  direction, from visual identity to platform architecture and seller experience.
-- **Maison Seul** (Jul 2025 to present), maisonseul.com: a slower, longevity focused house.
+- **Vendr** (2026), vendr.ie: premium, fully managed vending for modern workplaces.
+  Strategy, partnerships and rollout across Vendr Pass and Vendr Select.
+- **Éirvox** (2025), eirvox.ie: a curated marketplace for premium goods in Ireland.
+  Product, brand and engineering direction, from identity to platform architecture.
+- **Maison Seul** (2025), maisonseul.com: named in the parent line only. Renato asked
+  that the CV keep this section short, so it carries no bullet of its own.
 
 ## Projects
 
@@ -138,3 +137,12 @@ Certifications: 16 credentials on LinkedIn, including
 - No em dashes. Use commas, full stops or colons.
 - No student framing. The BSc is education history, not an identity.
 - No "currently working on". Say what is shipped or what is running.
+- **Never "sole Ireland based engineer".** Renato asked for it out: it reads as a lone
+  contributor when the point is that he works well on a team. Frame the Randori work
+  as done with the team.
+- Vary the security vocabulary rather than repeating "security engineer". Cyber
+  security engineer, attack surface management, detection engineering, vulnerability
+  management and risk mitigation, CVE and CPE correlation, security posture. Keyword
+  breadth matters for automated CV screening.
+- Job title in an experience heading stays exactly as it is on the CV, "Security
+  Engineer". The wider vocabulary belongs in the profile, skills and bullets.
