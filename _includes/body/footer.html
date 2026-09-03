@@ -2,7 +2,16 @@
 <footer class="content" role="contentinfo">
   <hr/>
   {% if site.copyright.size > 0 %}
-    <p><small class="copyright">{{ site.copyright | markdownify | replace:'<p>','' | replace:'</p>','' }}</small></p>
+    {%- assign build_year = 'now' | date: '%Y' -%}
+    <p><small class="copyright">{{ site.copyright | replace:'<!--year-->', build_year | markdownify | replace:'<p>','' | replace:'</p>','' }}</small></p>
+    <script>
+      // The build year is baked in above. Correct it if the visitor's clock has
+      // moved past it and the site has not been rebuilt yet.
+      (function () {
+        var el = document.querySelector('.copyright');
+        if (el) el.textContent = el.textContent.replace(/\b20\d{2}\b/, new Date().getFullYear());
+      })();
+    </script>
   {% endif %}
   {% if site.legal.size > 0 %}
     <nav class="legal"><small>
