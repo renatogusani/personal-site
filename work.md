@@ -1,19 +1,33 @@
 ---
-layout: page
+layout: default
 title: Work
 description: >
   Security engineering at IBM on Randori, founding VNTA Group, and earlier
   internships at Dell Technologies and Brown Thomas Arnotts.
-hide_description: true
-sitemap: true
 permalink: /work/
+ventures:
+  - name: Vendr
+    meta: "Premium managed vending for modern workplaces · since January 2026"
+  - name: Éirvox
+    meta: "A curated marketplace for premium goods in Ireland · since October 2025"
+  - name: Maison Seul
+    meta: "A slower, longevity focused house · since July 2025"
+volunteering:
+  - name: Dell Technologies
+    meta: "TecKno.dell.com content, EMEA intern onboarding panel, Transition Year mentor · 2022"
+  - name: CSinc.ie, TU Dublin
+    meta: "Computer Science Inclusive: camps, workshops and teacher CPD · 2022"
 ---
+
+# Work
+
+<div class="entry" markdown="1">
 
 ## Security Engineer, Randori
 {:#ibm}
 
 IBM, Ireland. January 2024 to present.
-{:.faded}
+{:.meta}
 
 Randori is IBM's attack surface management product, part of the QRadar suite. I
 work on the detection side of it and on the tooling around it, as the sole
@@ -30,61 +44,53 @@ Ireland based engineer on the team.
 
 Also volunteered on the Dublin Lab Social and Technical Events Board.
 
----
+</div>
+
+<div class="entry" markdown="1">
 
 ## Founder, VNTA Group
 {:#vnta-group}
 
 Vantanéant International Ltd, Dublin. November 2024 to present.
-{:.faded}
+{:.meta}
 
 An Irish registered holding company and brand studio. I lead strategy, brand and
 operations across the group, building shared infrastructure so each company
 scales on common foundations while keeping its own identity.
 
-**Vendr**, since January 2026. Premium, fully managed vending for modern
-workplaces and shared spaces. I lead strategy, partnerships and rollout across
-Vendr Pass and Vendr Select. The machine is treated as infrastructure, not
-retail.
+{% include group.html rows=page.ventures %}
 
-**Éirvox**, since October 2025. A curated marketplace for premium goods in
-Ireland, built for discovery and considered buying. I lead product, brand and
-engineering direction, from the visual identity through to platform architecture
-and seller experience.
+</div>
 
-**Maison Seul**, since July 2025. A slower, longevity focused house.
-
----
+<div class="entry" markdown="1">
 
 ## Cybersecurity Intern
 {:#dell}
 
 Dell Technologies, Limerick, remote. February to August 2022.
-{:.faded}
+{:.meta}
 
 A six month placement in Dell's Security and Resiliency Organization: alert
 monitoring, incident triage, vulnerability scanning and patch prioritisation.
 Wrote a LinkedIn article and video about the internship with eight practical
 tips for incoming interns.
 
----
+</div>
+
+<div class="entry" markdown="1">
 
 ## Database Engineering Intern
 {:#brown-thomas-arnotts}
 
 Brown Thomas Arnotts, Dublin. Summer 2021.
-{:.faded}
+{:.meta}
 
 Built and maintained SQL databases for retail operations and reporting,
 including data integrity, backup and access control processes.
 
----
+</div>
 
-## Volunteering
-{:#volunteering}
+Volunteering
+{:.label}
 
-**Dell Technologies**, 2022. Content improvements to TecKno.dell.com, the EMEA
-intern onboarding panel, and mentoring on the Transition Year Program.
-
-**CSinc.ie**, TU Dublin, 2022. Computer Science Inclusive, improving how
-computer science is taught through student camps, workshops and teacher CPD.
+{% include group.html rows=page.volunteering %}

@@ -1,0 +1,12 @@
+<nav class="nav" aria-label="Primary">
+  <ul class="wrap nav-list">
+    {%- for item in site.nav -%}
+      {%- assign here = false -%}
+      {%- if page.url == item.url -%}{%- assign here = true -%}{%- endif -%}
+      <li>
+        <a href="{{ item.url | relative_url }}"
+           {% if here %}class="on" aria-current="page"{% endif %}>{{ item.title }}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>

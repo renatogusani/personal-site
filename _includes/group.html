@@ -1,0 +1,31 @@
+{%- comment -%}
+  An iOS style grouped list.
+
+  Pass `rows`, a list of maps. Each row takes:
+    name  required, the row's title
+    meta  optional, the grey line under it
+    url   optional, makes the row a link and adds a chevron
+    ext   optional, true for links that leave the site
+{%- endcomment -%}
+<ul class="group">
+  {%- for row in include.rows -%}
+    <li class="row">
+      {%- if row.url -%}<a class="row-inner" href="{{ row.url }}"{% if row.ext %} rel="noopener"{% endif %}>
+      {%- else -%}<div class="row-inner">{%- endif -%}
+        <span class="row-text">
+          <span class="row-name">{{ row.name }}</span>
+          {%- if row.meta %}<span class="row-meta">{{ row.meta }}</span>{% endif -%}
+        </span>
+        {%- if row.url -%}
+          <span class="chev" aria-hidden="true">
+            {%- if row.ext -%}
+              <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h8v8M14 2 5 11M11 9v5H2V5h5"/></svg>
+            {%- else -%}
+              <svg width="9" height="15" viewBox="0 0 9 15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m1.5 1.5 6 6-6 6"/></svg>
+            {%- endif -%}
+          </span>
+        {%- endif -%}
+      {%- if row.url -%}</a>{%- else -%}</div>{%- endif -%}
+    </li>
+  {%- endfor -%}
+</ul>

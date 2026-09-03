@@ -1,18 +1,29 @@
 ---
-layout: page
+layout: default
 title: About
 description: >
   Background, education, and what I care about building.
-hide_description: true
-sitemap: true
 permalink: /about/
+credentials:
+  - name: BSc (Honours) Data Science, Level 8
+    meta: "National College of Ireland · 2019 to 2023"
+  - name: IBM Trustworthy AI and AI Ethics
+    meta: "IBM · 2024"
+  - name: IBM Python for Data Science
+    meta: "IBM · 2024"
+  - name: Download my CV
+    meta: "PDF · updated September 2026"
+    url: /assets/Renato-Gusani-CV.pdf
 ---
 
+# About
+
 I came into security sideways. I studied Data Science at the National College of
-Ireland, graduating in 2023 with a BSc (Honours), Level 8, and spent most of the
-degree on statistics, analysis and the unglamorous work of getting data into a
-state where it can answer a question. A cybersecurity internship at Dell in 2022
-is where the two interests met, and I have been on that side ever since.
+Ireland, graduating in 2023, and spent most of the degree on statistics,
+analysis and the unglamorous work of getting data into a state where it can
+answer a question. A cybersecurity internship at Dell in 2022 is where the two
+interests met, and I have been on that side ever since.
+{:.lede}
 
 What I actually enjoy is the tooling. At IBM I could do the detection work by
 hand, and at the start I did. The more useful contribution turned out to be the
@@ -29,12 +40,9 @@ usually the harder choice and usually the right one.
 
 Based in Dublin, Ireland.
 
-## Education and certifications
+Education and credentials
+{:.label}
 
-**BSc (Honours) Data Science, Level 8.** National College of Ireland, 2019 to
-2023.
+{% include group.html rows=page.credentials %}
 
-Sixteen credentials on LinkedIn, including IBM Trustworthy AI and AI Ethics, and
-IBM Python for Data Science, both 2024.
-
-[Download my CV (PDF)](/assets/Renato-Gusani-CV.pdf){:.heading.flip-title}
+Sixteen credentials in total on LinkedIn.

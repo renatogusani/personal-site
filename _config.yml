@@ -1,37 +1,31 @@
-# Config
+# renatogusani.com
 # ========================================================================================
-# Site: renatogusani.com
-# Theme: Hydejack v9.1.6 (vendored), restyled. See _sass/my-style.scss for overrides.
+# A hand written Jekyll site. No theme: the layouts in _layouts and the single
+# stylesheet in assets/css/main.scss are the whole front end.
+#
 # All copy on this site must trace back to cv-reference.md.
-
-
-# General settings
-# ---------------------------------------------------------------------------------------
 
 url:                   https://renatogusani.com
 baseurl:               ''
-
 lang:                  en
 
 title:                 Renato Gusani
-
-# ~150 chars, used for the meta description and OpenGraph.
+tagline:               Security Engineer at IBM. Founder, VNTA Group.
 description:           >
   Security engineer at IBM Security, building Python and MCP tooling for attack
   surface management. Founder of VNTA Group. Dublin, Ireland.
 
-# A shorter description for the sidebar.
-tagline:               Security Engineer at IBM. Founder, VNTA Group.
-
-keywords:              [security engineering, attack surface management, Python, MCP, detection engineering, Dublin, Ireland]
-
-# Used by jekyll-seo-tag.
 author:
   name:                Renato Gusani
   email:               renato@vnta.xyz
 
-# Sidebar navigation.
-menu:
+# Dark only. Used for the browser UI colour and the app manifest.
+theme_color:           '#000000'
+background_color:      '#000000'
+
+nav:
+  - title:             Home
+    url:               /
   - title:             Work
     url:               /work/
   - title:             Projects
@@ -41,100 +35,17 @@ menu:
   - title:             Contact
     url:               /contact/
 
-# Footer copyright. `<!--year-->` is replaced at build time and corrected client
-# side, see _includes/body/footer.html.
-copyright:             © <!--year--> Renato Gusani
-
 permalink:             /:title/
 
-
-# Theme
-# ---------------------------------------------------------------------------------------
-# Hydejack v9.1.6 is vendored in this repo rather than pulled as a gem or a remote
-# theme, so `theme` and `remote_theme` stay unset.
-
-
-# Customization
-# ----------------------------------------------------------------------------------------
-
-# No sidebar photograph. The design direction is text only, no stock imagery.
-accent_image:          none
-
-# One accent colour, used sparingly, for links only.
-# 4.6:1 on white, so it passes WCAG AA for body text.
-accent_color:          '#0066cc'
-
-# White. Drives the sidebar panel and the browser UI theme-color meta tag.
-theme_color:           '#ffffff'
-
-# System font stack, no webfonts, so there is no render blocking font request.
-font:                  '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif'
-font_heading:          '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif'
-font_code:             'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 defaults:
-  # Dark text on the white sidebar panel.
-  - scope:
-      path:            ''
-    values:
-      invert_sidebar:  true
   - scope:
       path:            assets/
     values:
       sitemap:         false
-
-kramdown:
-  footnote_backlink:   '&#x21a9;&#xfe0e;'
-
-
-# Hydejack Settings
-# ----------------------------------------------------------------------------------------
-
-hydejack:
-  no_mark_external:    false
-  no_push_state:       false
-  no_drawer:           false
-  no_navbar:           false
-
-  # Search needs a worker bundle that was never shipped with this copy of the theme,
-  # and a five page site does not need search.
-  no_search:           true
-
-  no_inline_css:       false
-  no_page_style:       false
-
-  # Code blocks and tables stay within the content column.
-  no_break_layout:     true
-
-  # No page here is long enough to earn a table of contents.
-  no_toc:              true
-
-  no_third_column:     true
-  # Headings are sized in _sass/_my-overrides.scss instead. The theme's own
-  # large-screen rule went up to 4rem, which shouts.
-  no_large_headings:   true
-  no_structured_data:  false
-  no_theme_color:      false
-  no_breadcrumbs:      true
-  use_lsi:             false
-  cookies_banner:      false
-  advertise:           false
-  hide_dates:          true
-  hide_last_modified:  true
-
-  dark_mode:
-    always:            false
-    # Follows the visitor's OS setting. No toggle: a switch is chrome, and the
-    # OS already knows the answer.
-    dynamic:           true
-    icon:              false
-
-  offline:
-    enabled:           false
-
-
-# File inclusion/exclusion
-# ----------------------------------------------------------------------------------------
 
 exclude:
   - .jekyll-cache
@@ -142,49 +53,10 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
-  # Source material for the site copy, not a page.
+  - README.md
+  - docs
+  # Source material for the copy, not a page.
   - cv-reference.md
-include:
-  - .well-known
-  - LICENSE.md
-
-
-# Plugins
-# ----------------------------------------------------------------------------------------
-
-plugins:
-  - jekyll-default-layout
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-relative-links
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-titles-from-headings
-  - jekyll-include-cache
-
-
-# Plugin Configs
-# ---------------------------------------------------------------------------------------
-optional_front_matter:
-  remove_originals:    true
-
-readme_index:
-  remove_originals:    true
-  with_frontmatter:    true
-
-relative_links:
-  collections:         false
-
-titles_from_headings:
-  strip_title:         true
-  collections:         false
-
-compress_html:
-  comments:            ["<!--", "-->"]
-  clippings:           all
-  endings:             all
-  ignore:
-    envs:              [development]
 
 sass:
   style:               compressed

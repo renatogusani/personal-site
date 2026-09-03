@@ -1,21 +1,30 @@
 ---
-layout: page
+layout: default
 title: Contact
 description: >
   Get in touch by email, or find me on LinkedIn and GitHub.
-hide_description: true
-sitemap: true
 permalink: /contact/
+links:
+  - name: renato@vnta.xyz
+    meta: Email, and the best way to reach me
+    url: mailto:renato@vnta.xyz
+  - name: linkedin.com/in/rgusani
+    meta: LinkedIn
+    url: https://www.linkedin.com/in/rgusani/
+    ext: true
+  - name: github.com/renatogusani
+    meta: GitHub
+    url: https://github.com/renatogusani
+    ext: true
+  - name: Download my CV
+    meta: "PDF · updated September 2026"
+    url: /assets/Renato-Gusani-CV.pdf
 ---
 
-Email is best.
+# Contact
 
-**[renato@vnta.xyz](mailto:renato@vnta.xyz)**
+Open to software, AI tooling and security engineering roles. Based in Dublin,
+Ireland.
+{:.lede}
 
-[linkedin.com/in/rgusani](https://www.linkedin.com/in/rgusani/){:.heading.flip-title}
-
-[github.com/renatogusani](https://github.com/renatogusani){:.heading.flip-title}
-
-[Download my CV (PDF)](/assets/Renato-Gusani-CV.pdf){:.heading.flip-title}
-
-Dublin, Ireland.
+{% include group.html rows=page.links %}

@@ -1,0 +1,12 @@
+{%- assign year = 'now' | date: '%Y' -%}
+<footer class="wrap foot">
+  <p><span id="year">{{ year }}</span> Renato Gusani</p>
+  <script>
+    // The build year is baked in above. Correct it if the visitor's clock has
+    // moved past it and the site has not been rebuilt yet.
+    (function () {
+      var el = document.getElementById('year');
+      if (el) el.textContent = new Date().getFullYear();
+    })();
+  </script>
+</footer>
