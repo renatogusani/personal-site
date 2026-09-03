@@ -1,22 +1,25 @@
 ---
-  root_font_size: 15 #px
-  root_font_size_medium: 16 #px
+  # Body copy sits at 17px on anything wider than a phone, matching the CV.
+  root_font_size: 16 #px
+  root_font_size_medium: 17 #px
   root_font_size_large: 17 #px
 
-  root_font_size_print: 8 #pt
+  root_font_size_print: 10 #pt
 
-  root_line_height: 1.75
+  # 1.75 was loose enough to break paragraphs apart. 1.6 reads as one block.
+  root_line_height: 1.6
 
   font_weight: 400 #=normal
-  font_weight_bold: 700 #=bold
-  font_weight_heading: 700 #=bold
+  font_weight_bold: 600 #=semibold
+  # Semibold headings, not black. Weight 700 in a system font shouts.
+  font_weight_heading: 600
 
-  content_width: 42 #rem
-  content_width_2: 48 #rem
-  content_width_5: 54 #rem
+  content_width: 40 #rem
+  content_width_2: 44 #rem
+  content_width_5: 46 #rem
 
-  sidebar_width: 21 #rem
-  border_radius: 0.5 #rem
+  sidebar_width: 20 #rem
+  border_radius: 0.375 #rem
 
   break_point_1: 42 #em
   break_point_2: 54 #em
