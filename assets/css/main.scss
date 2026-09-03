@@ -89,19 +89,19 @@ main { padding-bottom: 5rem; }
 
 .home-name {
   color: $fg;
-  font-size: clamp(2rem, 8vw, 2.75rem);
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  font-size: clamp(2.5rem, 10vw, 3.5rem);
+  line-height: 1.0;
+  letter-spacing: -0.04em;
   font-weight: 700;
-  margin: 0 0 0.625rem;
+  margin: 0 0 0.75rem;
 }
 
 .home-tagline {
   color: $fg3;
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   line-height: 1.4;
   margin: 0;
-  max-width: 20rem;
+  max-width: 22rem;
 }
 
 // Back bar ------------------------------------------------------------------
@@ -167,49 +167,81 @@ main { padding-bottom: 5rem; }
 }
 
 // Type ---------------------------------------------------------------------
+// The scale runs 0.6875rem to 4rem across six steps. The old one spanned
+// 0.875 to 1.25 for everything between the page title and the small print,
+// which is why every page read at the same pitch.
+
 h1 {
   color: $fg;
-  font-size: clamp(2.125rem, 8.5vw, 3.5rem);
-  line-height: 1.04;
-  letter-spacing: -0.032em;
-  font-weight: 600;
-  margin: 3.5rem 0 1.5rem;
+  font-size: clamp(2.5rem, 9.5vw, 4rem);
+  line-height: 1.0;
+  letter-spacing: -0.038em;
+  font-weight: 700;
+  margin: 3.25rem 0 1.75rem;
   text-wrap: balance;
 }
 
 h2 {
   color: $fg;
-  font-size: 1.25rem;
-  line-height: 1.3;
-  letter-spacing: -0.012em;
-  font-weight: 600;
-  margin: 2.75rem 0 0.375rem;
+  font-size: 1.625rem;
+  line-height: 1.2;
+  letter-spacing: -0.022em;
+  font-weight: 650;
+  margin: 2.5rem 0 0.5rem;
+  text-wrap: balance;
 }
 
 h3 {
   color: $fg;
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
   font-weight: 600;
   margin: 1.75rem 0 0.375rem;
 }
 
 p { margin: 0 0 1.0625rem; }
 
-// The opening paragraphs of a page.
+// The opening paragraph of a page. Brighter and larger than body copy, so the
+// eye has somewhere to land before the text settles down.
 .lede {
-  font-size: 1.1875rem;
-  line-height: 1.5;
-  color: $fg2;
+  font-size: 1.3125rem;
+  line-height: 1.45;
+  letter-spacing: -0.011em;
+  color: $fg;
+  margin-bottom: 1.25rem;
 }
 
-// The first label after a lede does not need the full 3.5rem gap.
-.lede + .label { margin-top: 2.5rem; }
+.lede + .label { margin-top: 3rem; }
 
-// The grey line under a heading: dates, employer, one line of context.
+// A line the page should slow down for. No quote marks: the size does the work.
+.pull {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: $fg;
+  border-left: 2px solid $accent;
+  padding-left: 1.25rem;
+  margin: 2.75rem 0;
+  text-wrap: balance;
+}
+
+// The period a role covers. Sits above the role name rather than under it, so
+// the Work page reads as a dated list and not as five identical articles.
+.when {
+  color: $fg3;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin: 0 0 0.5rem;
+}
+
+// The grey line under a heading, where a date column is not wanted.
 .meta {
   color: $fg3;
-  font-size: 0.875rem;
-  margin: 0 0 0.75rem;
+  font-size: 0.9375rem;
+  margin: 0 0 0.875rem;
 }
 
 // Small tracked section marker. Used instead of a rule or a boxed header.
@@ -222,8 +254,25 @@ p { margin: 0 0 1.0625rem; }
   margin: 3.5rem 0 0.875rem;
 }
 
-ul, ol { margin: 0 0 1.0625rem; padding-left: 1.15rem; }
-li { margin-bottom: 0.375rem; }
+ul, ol { margin: 0 0 1.0625rem; padding-left: 0; list-style: none; }
+li { margin-bottom: 0.5rem; }
+
+// Bullets inside prose get a hairline marker instead of a dot, and hang so the
+// text edge stays flush with the paragraphs above.
+main ul:not(.group):not(.socials) > li {
+  position: relative;
+  padding-left: 1.25rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.8em;
+    width: 0.5rem;
+    height: 1px;
+    background: $fg3;
+  }
+}
 
 strong { color: $fg; font-weight: 600; }
 
@@ -306,13 +355,16 @@ a.row-inner {
 
 // An entry: a role or a project written out in prose rather than as a row.
 .entry {
-  padding-bottom: 2rem;
+  padding-bottom: 2.75rem;
   border-bottom: 1px solid $line;
 
-  + .entry { padding-top: 0.5rem; }
+  + .entry { padding-top: 0.75rem; }
 
-  > :first-child { margin-top: 2rem; }
+  > :first-child { margin-top: 2.75rem; }
   > :last-child { margin-bottom: 0; }
+
+  // The role name follows its date label directly.
+  .when + h2 { margin-top: 0; }
 }
 
 // Footer -------------------------------------------------------------------
@@ -345,7 +397,8 @@ a.row-inner {
 @media print {
   html, body { background: #fff; color: #000; }
   .topbar, .skip, .chev, .socials { display: none; }
-  h1, h2, h3, strong, .row-name { color: #000; }
+  h1, h2, h3, strong, .row-name, .lede, .pull { color: #000; }
+  .pull { border-left-color: #999; }
   .group { background: none; }
   .row + .row { border-top: 1px solid #ccc; }
   a { color: #000; }

@@ -35,8 +35,10 @@ the foundations every time.
 
 I care about work that holds up. Detection rules that stay accurate as the
 internet changes underneath them, brands that still make sense in five years,
-tools that other people can pick up without a handover call. Restraint is
-usually the harder choice and usually the right one.
+tools that other people can pick up without a handover call.
+
+Restraint is usually the harder choice and usually the right one.
+{:.pull}
 
 Based in Dublin, Ireland.
 

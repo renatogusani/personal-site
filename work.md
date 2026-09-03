@@ -27,13 +27,17 @@ volunteering:
 
 # Work
 
+Security engineering at IBM, and the ventures I run alongside it. Ordered by
+what I spend time on, not strictly by date.
+{:.lede}
+
 <div class="entry" markdown="1">
+
+IBM, Ireland · January 2024 to present
+{:.when}
 
 ## Security Engineer, Randori
 {:#ibm}
-
-IBM, Ireland. January 2024 to present.
-{:.meta}
 
 Randori is IBM's attack surface management product, part of the QRadar suite. I
 work on the detection side of it and on the tooling around it, as the sole
@@ -54,13 +58,14 @@ Also volunteered on the Dublin Lab Social and Technical Events Board.
 
 <div class="entry" markdown="1">
 
+Dublin · November 2024 to present
+{:.when}
+
 ## Founder, VNTA Group
 {:#vnta-group}
 
-Vantanéant International Ltd, Dublin. November 2024 to present.
-{:.meta}
-
-An Irish registered holding company and brand studio. I lead strategy, brand and
+Vantanéant International Ltd, an Irish registered holding company and brand
+studio. I lead strategy, brand and
 operations across the group, building shared infrastructure so each company
 scales on common foundations while keeping its own identity.
 
@@ -70,13 +75,14 @@ scales on common foundations while keeping its own identity.
 
 <div class="entry" markdown="1">
 
+Dell Technologies, Limerick · February to August 2022
+{:.when}
+
 ## Cybersecurity Intern
 {:#dell}
 
-Dell Technologies, Limerick, remote. February to August 2022.
-{:.meta}
-
-A six month placement in Dell's Security and Resiliency Organization: alert
+A six month remote placement in Dell's Security and Resiliency Organization:
+alert
 monitoring, incident triage, vulnerability scanning and patch prioritisation.
 Wrote a LinkedIn article and video about the internship with eight practical
 tips for incoming interns.
@@ -85,11 +91,11 @@ tips for incoming interns.
 
 <div class="entry" markdown="1">
 
+Brown Thomas Arnotts, Dublin · Summer 2021
+{:.when}
+
 ## Database Engineering Intern
 {:#brown-thomas-arnotts}
-
-Brown Thomas Arnotts, Dublin. Summer 2021.
-{:.meta}
 
 Built and maintained SQL databases for retail operations and reporting,
 including data integrity, backup and access control processes.
