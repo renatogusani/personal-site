@@ -7,28 +7,28 @@
 html, body { margin:0; padding:0; }
 body {
   font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
-  font-size: 9.4pt; line-height: 1.44; color:#1d1d1f; -webkit-print-color-adjust: exact;
+  font-size: 9.7pt; line-height: 1.47; color:#1d1d1f; -webkit-print-color-adjust: exact;
 }
 a { color:#1d1d1f; text-decoration:none; }
 
-.name { font-size: 25pt; font-weight: 700; letter-spacing:-0.025em; line-height:1.02; margin:0 0 4pt; }
-.standfirst { font-size: 10.2pt; color:#3a3a3c; margin:0 0 7pt; }
-.roles { font-size: 9.4pt; font-weight:700; margin:0 0 6pt; }
-.contact { font-size: 8.7pt; color:#4a4a4d; line-height:1.6; margin:0; }
-.rule { border:0; border-top:0.6pt solid #c9c9cd; margin:11pt 0 0; }
+.name { font-size: 26pt; font-weight: 700; letter-spacing:-0.025em; line-height:1.02; margin:0 0 4pt; }
+.standfirst { font-size: 10.6pt; color:#3a3a3c; margin:0 0 7pt; }
+.roles { font-size: 10.1pt; font-weight:700; margin:0 0 6pt; }
+.contact { font-size: 9.2pt; color:#4a4a4d; line-height:1.6; margin:0; }
+.rule { border:0; border-top:0.6pt solid #c9c9cd; margin:13pt 0 0; }
 
-h2 { font-size: 7.8pt; font-weight:700; letter-spacing:0.16em; text-transform:uppercase;
-     color:#6e6e73; margin:13pt 0 6pt; }
-h3 { font-size: 10.4pt; font-weight:700; margin:0 0 1pt; letter-spacing:-0.01em; }
-.meta { font-size: 8.6pt; color:#5a5a5e; margin:0 0 4pt; }
+h2 { font-size: 8.2pt; font-weight:700; letter-spacing:0.16em; text-transform:uppercase;
+     color:#6e6e73; margin:17pt 0 8pt; }
+h3 { font-size: 10.8pt; font-weight:700; margin:0 0 1pt; letter-spacing:-0.01em; }
+.meta { font-size: 9.2pt; color:#5a5a5e; margin:0 0 4pt; }
 p { margin:0 0 5pt; }
 ul { margin:0 0 8pt; padding-left: 11pt; }
-li { margin:0 0 2.6pt; }
-.entry { margin-bottom: 9pt; }
+li { margin:0 0 3.4pt; }
+.entry { margin-bottom: 11pt; }
 .entry:last-child { margin-bottom:0; }
 
 /* Skills: label in a fixed column so the values line up. */
-.skill { display:grid; grid-template-columns: 88pt 1fr; gap:0 10pt; margin-bottom:3.4pt; }
+.skill { display:grid; grid-template-columns: 96pt 1fr; gap:0 10pt; margin-bottom:4.2pt; }
 .skill dt { font-weight:700; }
 .skill dd { margin:0; }
 dl { margin:0 0 2pt; }
@@ -36,11 +36,12 @@ dl { margin:0 0 2pt; }
 /* Page breaks: never strand a heading at the foot of a page, and never split
    a role across two. */
 h2, h3, .meta { break-after: avoid-page; page-break-after: avoid; }
-.entry { break-inside: avoid-page; page-break-inside: avoid; }
+.entry { break-inside: auto; }
 li { break-inside: avoid-page; page-break-inside: avoid; }
 h2 { break-inside: avoid-page; }
 
-.inline { font-size:9.2pt; }
+.inline { font-size:9.9pt; }
+.page-break { break-after: page; page-break-after: always; }
 .tight { margin-bottom:3pt; }
 </style></head><body>
 
@@ -60,6 +61,9 @@ tooling and MCP based agent workflows the detection team runs on, write the
 fingerprinting rules that identify exposed software and services, and correlate
 findings against CVE and CPE data so customers can prioritise remediation.
 Outside work I run VNTA Group, a portfolio of premium ventures.</p>
+<p>The work runs from the detection rule itself through to the tooling that produces
+and validates it, and the habit behind it is the same one I apply everywhere: remove
+the manual step wherever there is one.</p>
 <p>Open to cyber security, security automation and AI tooling roles. Based in Dublin.</p>
 
 <h2>Skills</h2>
@@ -70,8 +74,11 @@ Outside work I run VNTA Group, a portfolio of premium ventures.</p>
   <div class="skill"><dt>Automation and AI</dt><dd>Python, CLI tooling, security automation, MCP and
     agentic systems, FastMCP, scripting and data collection pipelines</dd></div>
   <div class="skill"><dt>Data</dt><dd>Data analysis, statistics, SQL, regular expressions</dd></div>
-  <div class="skill"><dt>Platforms</dt><dd>IBM Randori, IBM QRadar suite, Splunk, Git and GitHub,
-    Jekyll, SvelteKit</dd></div>
+  <div class="skill"><dt>Security tooling</dt><dd>IBM Randori, IBM QRadar suite, Splunk, Imperva
+    SecureSphere database activity monitoring and firewall, McAfee Solidcore application
+    control</dd></div>
+  <div class="skill"><dt>Engineering</dt><dd>Git and GitHub, CI on GitHub Actions, Jekyll,
+    SvelteKit, Cloudflare Pages</dd></div>
 </dl>
 
 <h2>Experience</h2>
@@ -80,8 +87,10 @@ Outside work I run VNTA Group, a portfolio of premium ventures.</p>
   <h3>Security Engineer, Randori</h3>
   <p class="meta">Randori, an IBM company &nbsp;·&nbsp; Ireland, Hybrid &nbsp;·&nbsp; Jan 2024 to present</p>
   <ul>
-    <li>Build Python CLI tooling and MCP based agent workflows that streamline detection and
-      targeting for the team, plus scripts that automate data collection.</li>
+    <li>Build the Python CLI tooling and MCP based agent workflows the detection team runs on,
+      streamlining how detections are written, tested and targeted.</li>
+    <li>Write Python that automates data collection and removes recurring manual workload from
+      the team's week.</li>
     <li>Develop and ship detection rules with the wider Randori team, improving security posture
       across the customer base.</li>
     <li>Write regular expression rules that fingerprint software, services and versions, then
@@ -89,10 +98,13 @@ Outside work I run VNTA Group, a portfolio of premium ventures.</p>
       to support vulnerability risk mitigation.</li>
     <li>Identify attack vectors such as exposed login fields, directory listings and default
       installations, and recommend mitigations to reduce customer exposure.</li>
-    <li>Partner with customer success and sales engineering on technical troubleshooting.</li>
+    <li>Partner with customer success and sales engineering on technical troubleshooting, and
+      translate findings into remediation customers can act on.</li>
     <li>Volunteer on the Dublin Lab Social and Technical Events Board.</li>
   </ul>
 </div>
+
+<div class="page-break"></div>
 
 <div class="entry">
   <h3>Cybersecurity Intern</h3>
@@ -101,6 +113,14 @@ Outside work I run VNTA Group, a portfolio of premium ventures.</p>
     <li>Six month placement in Dell's Security and Resiliency Organization: security monitoring
       and alert triage, incident response support, vulnerability scanning and patch
       prioritisation.</li>
+    <li>Monitored servers for breaches and investigated violations using Imperva SecureSphere
+      database activity monitoring and firewall, and watched the Splunk cyber defence dashboards
+      for anomalies.</li>
+    <li>Automated a weekly Imperva procedure in Python, C# and Excel VBA, saving the team over an
+      hour a week and removing a source of manual error. Led the project through all its
+      phases.</li>
+    <li>Audited database servers for missing McAfee Solidcore application control and worked with
+      the database administrators to close the gaps.</li>
     <li>Wrote a LinkedIn article and video on the internship, with eight practical tips for
       incoming interns.</li>
   </ul>

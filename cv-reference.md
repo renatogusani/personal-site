@@ -62,8 +62,17 @@ Randori, an IBM company. Ireland, Hybrid. Jan 2024 to present.
 ### Cybersecurity Intern
 Dell Technologies, Limerick (Remote). Feb 2022 to Aug 2022.
 
-- Six month placement in Dell's Security and Resiliency Organization: alert
-  monitoring, incident triage, vulnerability scanning and patch prioritisation.
+- Six month placement in Dell's Security and Resiliency Organization: security
+  monitoring and alert triage, incident response support, vulnerability scanning
+  and patch prioritisation.
+- Monitored servers for breaches and investigated violations using Imperva
+  SecureSphere database activity monitoring and firewall, and watched the Splunk
+  cyber defence dashboards for anomalies.
+- Automated a weekly Imperva procedure in Python, C# and Excel VBA, saving the team
+  over an hour a week and removing a source of manual error. Led the project
+  through all its phases. (The only quantified result on the CV.)
+- Audited database servers for missing McAfee Solidcore application control and
+  worked with the database administrators to close the gaps.
 - Wrote a LinkedIn article and video on the internship, with eight practical tips
   for incoming interns.
 
@@ -146,3 +155,6 @@ Certifications: 16 credentials on LinkedIn, including
   breadth matters for automated CV screening.
 - Job title in an experience heading stays exactly as it is on the CV, "Security
   Engineer". The wider vocabulary belongs in the profile, skills and bullets.
+- **Page one stops at the Randori role.** Renato asked for the break there, with
+  both pages full. docs/cv-source.html is tuned to hit that: the type scale and
+  spacing are load bearing, so re-measure after any content change.
