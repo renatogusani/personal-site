@@ -77,14 +77,23 @@ WCAG AA. CI does not check that, so if you change the palette, check it.
 There is no separate `vnta-site` repository: `Vantaneant-International-Ltd/vnta`
 is the vnta.xyz site, and its `static/CNAME` confirms it.
 
-BUILDT and EZGO Autoworks are listed under VNTA on the Work page. Their names,
-one-line descriptions and URLs are taken from VNTA's own site
-(`Vantaneant-International-Ltd/vnta`, `src/routes/+page.svelte`), which lists
-them publicly. Nothing comes from the client portal in that repo, which holds
-confidential material.
+VNTA's own site is the authority for how the group and its houses are
+described here, not a paraphrase:
 
-Their repositories are private and cannot be reached from a session scoped to
-another owner, so neither has a mark.
+| Copy on this site | Taken from |
+|:--|:--|
+| The three house descriptions | `src/routes/houses/+page.svelte`, the standfirsts, written from each house's brand book |
+| The VNTA paragraph on Work | `src/routes/+page.svelte` and `about/+page.svelte` |
+| BUILDT and EZGO Autoworks | the `clients` array in `about/+page.svelte`, which lists them publicly |
+
+Nothing comes from the client portal in that repo, which holds confidential
+material.
+
+**Neither client has a mark, and that is correct.** VNTA's own site lists them
+as text: number, name, one line, link. No logo. Their sites are unreachable
+from this sandbox, their repositories are private, and BUILDT's brand skill
+states plainly: "No distorting, recolouring, or rebuilding the emblem or
+wordmark." So there is no asset to use and rebuilding one is out.
 
 ### Source of truth
 

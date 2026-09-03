@@ -20,22 +20,22 @@ redirect_from:
   - /projects/statistical_analyses/
 ventures:
   - name: VNTA Group
-    meta: "vnta.xyz · The parent company and brand studio"
+    meta: "vnta.xyz · Holding company. One brand at a time"
     image: /assets/img/projects/vnta.jpg
     alt: "The VNTA Group site."
     url: https://vnta.xyz
   - name: Vendr
-    meta: "vendr.ie · Premium managed vending for workplaces"
+    meta: "vendr.ie · A modern vending platform: curation, infrastructure, data"
     image: /assets/img/projects/vendr.jpg
     alt: "The Vendr site: the wordmark and nav on an off white ground, above the line: a quieter form of retail, a short Irish first list, machines that simply work. Below it, approach Irish first, placement workplaces and hospitality, launching Spring 2026."
     url: https://vendr.ie
   - name: Éirvox
-    meta: "eirvox.ie · Carbon steering wheels, finished in Dublin"
+    meta: "eirvox.ie · Verification led enthusiast commerce, finished in Dublin"
     image: /assets/img/projects/eirvox.jpg
     alt: "The ÉIRVOX site: the headline carbon steering wheels, finished in Dublin, over a large fox mark on black, with an email field marked first access."
     url: https://eirvox.ie
   - name: Maison Seul
-    meta: "maisonseul.com · House of absence, unlaunched"
+    meta: "maisonseul.com · Restraint, form, cultural permanence. Unlaunched"
     image: /assets/img/projects/maisonseul.jpg
     alt: "The Maison Seul site: the wordmark letterspaced in off white on near black, the line house of absence, Dublin listed with two redacted cities, and Coming MMXXVII."
     url: https://maisonseul.com
@@ -57,12 +57,13 @@ year project that is still running.
 VNTA Group
 {:.label}
 
-I lead strategy, brand and engineering direction across Vendr, Éirvox and
-Maison Seul, on shared infrastructure so each scales on common foundations
-while keeping its own identity. Vendr treats the machine as infrastructure
-rather than retail, launching in Ireland in Spring 2026. Éirvox makes a small
-line of carbon steering wheels, designed in Ireland and finished in Dublin.
-Maison Seul is deliberately quiet, and has not launched.
+Three houses sit under VNTA, each with its own name, system and brand book.
+Vendr is a modern vending platform, a quieter retail layer built on curation,
+infrastructure and data, launching in Ireland in Spring 2026. Éirvox is
+verification led enthusiast commerce, a focused specialist now and a curated
+marketplace over time, with DRIVE as its editorial layer. Maison Seul is
+restraint, form and cultural permanence, built for longevity rather than
+velocity, and has not launched.
 
 SpaceXplorer
 {:.label}

@@ -7,22 +7,22 @@ description: >
 permalink: /work/
 ventures:
   - name: VNTA Group
-    meta: "vnta.xyz · The parent company and brand studio"
+    meta: "vnta.xyz · Holding company. One brand at a time"
     url: https://vnta.xyz
     ext: true
     mark: /assets/img/marks/vnta.png
   - name: Vendr
-    meta: "vendr.ie · Premium managed vending for workplaces · since January 2026"
+    meta: "vendr.ie · A modern vending platform: curation, infrastructure, data · since January 2026"
     url: https://vendr.ie
     ext: true
     mark: /assets/img/marks/vendr.png
   - name: Éirvox
-    meta: "eirvox.ie · Carbon steering wheels, finished in Dublin · since October 2025"
+    meta: "eirvox.ie · Verification led enthusiast commerce, with DRIVE as its editorial layer · since October 2025"
     url: https://eirvox.ie
     ext: true
     mark: /assets/img/marks/eirvox.png
   - name: Maison Seul
-    meta: "maisonseul.com · A slower, longevity focused house · since July 2025"
+    meta: "maisonseul.com · Restraint, form, cultural permanence. Built for longevity, not velocity · since July 2025"
     url: https://maisonseul.com
     ext: true
 clients:
@@ -92,15 +92,16 @@ VNTA Group · Dublin · November 2024 to present
 ## Founder
 {:#vnta-group}
 
-Vantanéant International Ltd, an Irish registered holding company and brand
-studio. I lead strategy, brand and
-operations across the group, building shared infrastructure so each company
-scales on common foundations while keeping its own identity.
+Vantanéant International Ltd, an Irish registered holding company building and
+guiding premium brands through strategy, design systems and long term
+direction. Three houses sit under it, each with its own name, system and brand
+book. A house that only works while we are standing in it is not a house, so
+each is built to be handed the keys.
 
 {% include group.html rows=page.ventures %}
 
-The studio also takes on client work, one brand at a time: strategy, design
-system, build, then the keys handed over.
+We take residence inside one brand at a time, set direction, build the system
+underneath it, then hand over the keys. Current clients:
 
 {% include group.html rows=page.clients %}
 
