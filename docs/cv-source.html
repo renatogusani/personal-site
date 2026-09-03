@@ -1,0 +1,151 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Renato Gusani CV</title>
+<style>
+/* Liberation Sans, the face the existing CV already uses and metric compatible
+   with Arial, so the document stays recognisably the same one. */
+@page { size: A4; margin: 16mm 17mm 18mm; }
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; }
+body {
+  font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+  font-size: 9.4pt; line-height: 1.44; color:#1d1d1f; -webkit-print-color-adjust: exact;
+}
+a { color:#1d1d1f; text-decoration:none; }
+
+.name { font-size: 25pt; font-weight: 700; letter-spacing:-0.025em; line-height:1.02; margin:0 0 4pt; }
+.standfirst { font-size: 10.2pt; color:#3a3a3c; margin:0 0 7pt; }
+.roles { font-size: 9.4pt; font-weight:700; margin:0 0 6pt; }
+.contact { font-size: 8.7pt; color:#4a4a4d; line-height:1.6; margin:0; }
+.rule { border:0; border-top:0.6pt solid #c9c9cd; margin:11pt 0 0; }
+
+h2 { font-size: 7.8pt; font-weight:700; letter-spacing:0.16em; text-transform:uppercase;
+     color:#6e6e73; margin:13pt 0 6pt; }
+h3 { font-size: 10.4pt; font-weight:700; margin:0 0 1pt; letter-spacing:-0.01em; }
+.meta { font-size: 8.6pt; color:#5a5a5e; margin:0 0 4pt; }
+p { margin:0 0 5pt; }
+ul { margin:0 0 8pt; padding-left: 11pt; }
+li { margin:0 0 2.6pt; }
+.entry { margin-bottom: 9pt; }
+.entry:last-child { margin-bottom:0; }
+
+/* Skills: label in a fixed column so the values line up. */
+.skill { display:grid; grid-template-columns: 88pt 1fr; gap:0 10pt; margin-bottom:3.4pt; }
+.skill dt { font-weight:700; }
+.skill dd { margin:0; }
+dl { margin:0 0 2pt; }
+
+.inline { font-size:9.2pt; }
+.tight { margin-bottom:3pt; }
+</style></head><body>
+
+<div class="name">Renato Gusani</div>
+<p class="standfirst">Cyber security engineer who builds the tooling. Founder on the side.</p>
+<p class="roles">Security Engineer, Randori at IBM &nbsp;·&nbsp; Founder, VNTA Group</p>
+<p class="contact">
+  Dublin, Ireland &nbsp;·&nbsp; renato@vnta.xyz &nbsp;·&nbsp; +353 85 118 4364<br>
+  linkedin.com/in/rgusani &nbsp;·&nbsp; github.com/renatogusani &nbsp;·&nbsp; renatogusani.com
+</p>
+<hr class="rule">
+
+<h2>Profile</h2>
+<p>Cyber security engineer at Randori, an IBM company, working on attack surface
+management within the IBM QRadar suite. I build the Python automation, CLI
+tooling and MCP based agent workflows the detection team runs on, write the
+fingerprinting rules that identify exposed software and services, and correlate
+findings against CVE and CPE data so customers can prioritise remediation.
+Outside work I run VNTA Group, a portfolio of premium ventures.</p>
+<p>Open to cyber security, security automation and AI tooling roles. Based in Dublin.</p>
+
+<h2>Skills</h2>
+<dl>
+  <div class="skill"><dt>Security</dt><dd>Attack surface management, detection engineering, threat
+    analysis, vulnerability management and risk mitigation, CVE and CPE correlation, service
+    fingerprinting, security posture assessment</dd></div>
+  <div class="skill"><dt>Automation and AI</dt><dd>Python, CLI tooling, security automation, MCP and
+    agentic systems, FastMCP, scripting and data collection pipelines</dd></div>
+  <div class="skill"><dt>Data</dt><dd>Data analysis, statistics, SQL, regular expressions</dd></div>
+  <div class="skill"><dt>Platforms</dt><dd>IBM Randori, IBM QRadar suite, Splunk, Git and GitHub,
+    Jekyll, SvelteKit</dd></div>
+</dl>
+
+<h2>Experience</h2>
+
+<div class="entry">
+  <h3>Security Engineer, Randori</h3>
+  <p class="meta">Randori, an IBM company &nbsp;·&nbsp; Ireland, Hybrid &nbsp;·&nbsp; Jan 2024 to present</p>
+  <ul>
+    <li>Build Python CLI tooling and MCP based agent workflows that streamline detection and
+      targeting for the team, plus scripts that automate data collection.</li>
+    <li>Develop and ship detection rules with the wider Randori team, improving security posture
+      across the customer base.</li>
+    <li>Write regular expression rules that fingerprint software, services and versions, then
+      correlate findings against known vulnerabilities using CPE mappings and scoring frameworks
+      to support vulnerability risk mitigation.</li>
+    <li>Identify attack vectors such as exposed login fields, directory listings and default
+      installations, and recommend mitigations to reduce customer exposure.</li>
+    <li>Partner with customer success and sales engineering on technical troubleshooting.</li>
+    <li>Volunteer on the Dublin Lab Social and Technical Events Board.</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <h3>Cybersecurity Intern</h3>
+  <p class="meta">Dell Technologies &nbsp;·&nbsp; Limerick, Remote &nbsp;·&nbsp; Feb 2022 to Aug 2022</p>
+  <ul>
+    <li>Six month placement in Dell's Security and Resiliency Organization: security monitoring
+      and alert triage, incident response support, vulnerability scanning and patch
+      prioritisation.</li>
+    <li>Wrote a LinkedIn article and video on the internship, with eight practical tips for
+      incoming interns.</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <h3>Database Engineering Intern</h3>
+  <p class="meta">Brown Thomas Arnotts &nbsp;·&nbsp; Dublin &nbsp;·&nbsp; Summer 2021</p>
+  <ul>
+    <li>Built and maintained SQL databases for retail operations and reporting, including data
+      integrity, backup and access control processes.</li>
+  </ul>
+</div>
+
+<h2>Entrepreneurship</h2>
+<div class="entry">
+  <h3>Founder</h3>
+  <p class="meta">VNTA Group, Vantanéant International Ltd &nbsp;·&nbsp; Dublin &nbsp;·&nbsp; Nov 2024 to present</p>
+  <p class="tight">Parent company behind Vendr, Éirvox and Maison Seul. I lead strategy, brand and
+  operations across the group, building shared infrastructure so each company scales on common
+  foundations.</p>
+  <ul>
+    <li><strong>Vendr</strong> (2026): premium, fully managed vending for modern workplaces.
+      Strategy, partnerships and rollout across Vendr Pass and Vendr Select.</li>
+    <li><strong>Éirvox</strong> (2025): a curated marketplace for premium goods in Ireland.
+      Product, brand and engineering direction, from identity to platform architecture.</li>
+  </ul>
+</div>
+
+<h2>Projects</h2>
+<div class="entry">
+  <h3>SpaceXplorer</h3>
+  <p class="meta">Final Year Project, National College of Ireland &nbsp;·&nbsp; spacexplorer.info &nbsp;·&nbsp; 2022 to 2023</p>
+  <p>Explored the SpaceX and NASA APOD APIs with data science and machine learning, analysing
+  4,630 orbital launch attempts across 62 operators, 370 rockets and 158 launch sites, and
+  published the findings and live launch statistics as an open source site.</p>
+</div>
+
+<h2>Education and certifications</h2>
+<div class="entry">
+  <h3>BSc (Honours) Data Science, Level 8</h3>
+  <p class="meta">National College of Ireland &nbsp;·&nbsp; 2019 to 2023</p>
+  <p class="inline">IBM Trustworthy AI and AI Ethics (2024) &nbsp;·&nbsp; IBM Python for Data Science (2024)
+  &nbsp;·&nbsp; 16 credentials on LinkedIn</p>
+</div>
+
+<h2>Volunteering</h2>
+<ul>
+  <li><strong>Dell Technologies</strong>, 2022: TecKno.dell.com content, EMEA intern onboarding
+    panel, Transition Year Program mentor.</li>
+  <li><strong>CSinc.ie, TU Dublin</strong>, 2022: Computer Science Inclusive, improving how
+    computer science is taught through camps, workshops and teacher CPD.</li>
+</ul>
+
+</body></html>

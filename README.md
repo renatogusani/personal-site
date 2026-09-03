@@ -175,6 +175,30 @@ beside it. Same split as iOS Settings, where app rows carry icons and system
 rows carry glyphs.
 
 
+## The CV
+
+`assets/Renato-Gusani-CV.pdf` is generated, not hand edited. The source is
+`docs/cv-source.html`; print it to PDF with Chromium at A4:
+
+```python
+pg.pdf(path="Renato-Gusani-CV.pdf", format="A4", print_background=True,
+       display_header_footer=True,
+       margin={"top":"16mm","bottom":"18mm","left":"17mm","right":"17mm"})
+```
+
+Liberation Sans, the same face the original PDF used and metric compatible with
+Arial, so the document stays recognisably the same one. Two pages.
+
+Three rules for its content, all from Renato, and all recorded in
+`cv-reference.md`:
+
+- **Never "sole Ireland based engineer".** It reads as a lone contributor when
+  the point is that he works well on a team.
+- **Vary the security vocabulary.** Repeating "security engineer" costs keyword
+  coverage in automated screening. The job title in an experience heading stays
+  exact; the wider vocabulary belongs in the profile, skills and bullets.
+- **Keep the VNTA section short.** Maison Seul is named in the parent line only.
+
 ## SEO
 
 `jekyll-seo-tag` handles titles, descriptions, canonical URLs, OpenGraph and the
