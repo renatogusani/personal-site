@@ -36,3 +36,5 @@ Based in Dublin, Ireland.
 
 Sixteen credentials on LinkedIn, including IBM Trustworthy AI and AI Ethics, and
 IBM Python for Data Science, both 2024.
+
+[Download my CV (PDF)](/assets/Renato-Gusani-CV.pdf){:.heading.flip-title}

@@ -16,4 +16,6 @@ Email is best.
 
 [github.com/renatogusani](https://github.com/renatogusani){:.heading.flip-title}
 
+[Download my CV (PDF)](/assets/Renato-Gusani-CV.pdf){:.heading.flip-title}
+
 Dublin, Ireland.
