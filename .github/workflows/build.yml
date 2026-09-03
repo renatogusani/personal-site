@@ -1,0 +1,56 @@
+name: Build
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Build
+        env:
+          JEKYLL_ENV: production
+        # Warnings are worth seeing, so fail the build if Jekyll emits any.
+        run: |
+          bundle exec jekyll build --trace 2>&1 | tee build.log
+          if grep -qiE '^\s*(warn|warning):' build.log; then
+            echo "::error::Jekyll emitted warnings"
+            exit 1
+          fi
+
+      - name: Check for broken internal links
+        run: |
+          # Every root-relative href and src in the output must resolve to a
+          # file, or to a directory containing an index.html.
+          grep -rhoE '(src|href)="/[^"]*"' --include='*.html' _site \
+            | sed -E 's/^(src|href)="//; s/"$//' | sed 's/[?#].*//' \
+            | sort -u > /tmp/links.txt
+          broken=0
+          while read -r p; do
+            [ -n "$p" ] || continue
+            if [ ! -e "_site$p" ] && [ ! -e "_site${p%/}/index.html" ]; then
+              echo "::error::broken internal link: $p"
+              broken=1
+            fi
+          done < /tmp/links.txt
+          exit "$broken"
+
+      - name: Check no stale student-era copy crept back in
+        run: |
+          if grep -rliE 'BSc Data Science Student|under construction|renato\.gusani@outlook' --include='*.html' _site; then
+            echo "::error::stale copy found in the built site"
+            exit 1
+          fi

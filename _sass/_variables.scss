@@ -13,10 +13,12 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-$gray: #777;
-$gray-bg: rgba(0,0,0,.025);
-$gray-text: #666;
-$menu-text: #bbb;
-$body-color: #333;
-$body-bg: #fff;
-$border-color: #ebebeb;
+// Palette matched to the CV: near black on white, two greys, hairline rules.
+// Every value used for text clears 4.5:1 on white, so body copy passes WCAG AA.
+$body-color:   #1d1d1f; // 16.9:1  primary text
+$gray-text:    #515154; //  7.8:1  strong secondary text
+$gray:         #6e6e73; //  5.1:1  captions, dates, section labels
+$menu-text:    #86868b; //  3.6:1  non-text only: separators, disabled marks
+$body-bg:      #fff;
+$border-color: #d2d2d7;
+$gray-bg:      rgba(0,0,0,.03);
