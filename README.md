@@ -197,15 +197,19 @@ same document:
 | Standfirst | 13pt regular |
 | Body | 10.15pt, 1.6 leading, paragraphs at 1.76 |
 | Section labels | 9pt, 0.19em tracking, uppercase |
-| Primary text | `#1d1d1f` |
+| Primary text | `#33333a`, softer than the original's `#1d1d1d` |
 | Supporting text | `#6e6e73` (role line, section labels, meta, skill values) |
 | Contact | `#86868b` |
 | Footer | `#a7a7ab` |
 
-Body copy is near black. The document reads light because of the margins and
-the leading, not because the text is greyed. **Bold appears only on the name,
-role titles, skill labels and company names.** Nothing else, and never a whole
-line.
+Primary text is a softened near black rather than the original's `#1d1d1d`.
+Renato asked for it: the original's bold read too strong, and since Liberation
+Sans has no semibold, the tone is the only lever. Body and bold share the tone,
+so weight alone carries the emphasis.
+
+**Bold appears only on the name, role titles, skill labels and company names.**
+Never a whole line. In the role and meta lines the bold falls on **IBM** and
+**VNTA**, not on Randori.
 
 Three rules for its content, all from Renato, and all recorded in
 `cv-reference.md`:

@@ -155,6 +155,10 @@ Certifications: 16 credentials on LinkedIn, including
   breadth matters for automated CV screening.
 - Job title in an experience heading stays exactly as it is on the CV, "Security
   Engineer". The wider vocabulary belongs in the profile, skills and bullets.
+- **Bold falls on IBM and VNTA, not Randori**, in the role line and the meta
+  line under it. Renato's call.
+- **Primary text is #33333a, not pure near black.** The original's bold read too
+  strong. Liberation Sans has no semibold, so tone is the only lever.
 - **Page one stops at the Randori role.** Renato asked for the break there, with
   both pages full. docs/cv-source.html is tuned to hit that: the type scale and
   spacing are load bearing, so re-measure after any content change.
