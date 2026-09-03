@@ -354,6 +354,18 @@ a.row-inner {
 
 // A brand mark at the head of a row. Square, small, and given the same corner
 // radius as the tiles the marks were drawn for.
+// An employer or venture mark above a role. Same square treatment as a row
+// mark, just standing on its own.
+.entry-mark {
+  display: block;
+  width: 1.625rem;
+  height: 1.625rem;
+  border-radius: 0.375rem;
+  margin-bottom: 0.875rem;
+}
+
+.entry-mark + .when { margin-top: 0; }
+
 .row-mark {
   flex: 0 0 auto;
   width: 1.625rem;

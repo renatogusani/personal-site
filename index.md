@@ -10,9 +10,11 @@ now:
   - name: IBM Security
     meta: "Security Engineer, Randori · since January 2024"
     url: /work/#ibm
+    mark: /assets/img/marks/ibm.png
   - name: VNTA Group
     meta: "Founder · Vendr, Éirvox, Maison Seul"
     url: /work/#vnta-group
+    mark: /assets/img/marks/vnta.png
   - name: SpaceXplorer
     meta: "SpaceX and NASA APOD APIs · 2023"
     url: https://spacexplorer.info

@@ -39,6 +39,8 @@ what I spend time on, not strictly by date.
 
 <div class="entry" markdown="1">
 
+<img class="entry-mark" src="/assets/img/marks/ibm.png" alt="IBM" width="26" height="26" loading="lazy" decoding="async">
+
 IBM, Ireland · January 2024 to present
 {:.when}
 
@@ -64,6 +66,8 @@ Also volunteered on the Dublin Lab Social and Technical Events Board.
 
 <div class="entry" markdown="1">
 
+<img class="entry-mark" src="/assets/img/marks/vnta.png" alt="VNTA Group" width="26" height="26" loading="lazy" decoding="async">
+
 Dublin · November 2024 to present
 {:.when}
 
@@ -80,6 +84,8 @@ scales on common foundations while keeping its own identity.
 </div>
 
 <div class="entry" markdown="1">
+
+<img class="entry-mark" src="/assets/img/marks/dell.png" alt="Dell Technologies" width="26" height="26" loading="lazy" decoding="async">
 
 Dell Technologies, Limerick · February to August 2022
 {:.when}

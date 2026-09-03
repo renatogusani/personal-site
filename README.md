@@ -112,8 +112,26 @@ requests, and the capture matches the live page:
 | Inter Tight | Inter, which Tight is a narrower cut of |
 | Newsreader (italic) | Crimson Pro italic, a stand-in |
 
-The small row marks in `img/marks/` are each repository's `favicon.svg`, plus
-Éirvox's `public/brand/symbol.png`.
+### Marks
+
+`img/marks/` holds the small square marks used on the home page rows and above
+each role on Work. All 96px, all on a dark tile so they sit as one set.
+
+| Mark | Source |
+|:--|:--|
+| `vendr`, `maisonseul`, `spacexplorer` | each repository's `favicon.svg` |
+| `eirvox` | `eirvox` `public/brand/symbol-orange.png` |
+| `vnta` | `Vantaneant-International-Ltd/vnta` `static/symbol.svg` |
+| `ibm` | the `@iconify-json/logos` set |
+| `dell` | the `simple-icons` package |
+
+IBM and Dell are rendered as flat white silhouettes via CSS `mask-image`, which
+keeps a multi-path logo from coming out half-coloured. They identify a real
+employer and link nowhere: sending a reader to ibm.com is a link off the site
+for no return. The home page rows point at `/work/#ibm` instead.
+
+Brown Thomas Arnotts has no mark. No official asset was available and drawing
+an approximation of someone's trademark is worse than leaving the space empty.
 
 ## SEO
 
