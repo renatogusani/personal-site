@@ -90,6 +90,16 @@ Twitter card. On top of that:
   from the markdown `#`, so titles can be written for a search result without
   affecting the page.
 - `jekyll-sitemap` writes `sitemap.xml` and `robots.txt`.
+- `redirect_from` in page front matter points the 2022 site's URLs at their
+  replacements: `/resume/`, `/certs/` and `/awards/` go to About, `/volunteering/`
+  to Work, and the eleven old coursework URLs to Projects. Theme leftovers like
+  `/forms-by-example/` and `/CHANGELOG/` are left to 404 on purpose, because
+  redirecting genuinely removed pages to the home page reads as a soft 404.
+
+Search engines cache aggressively. A deploy does not change what is already
+indexed, and a stale snippet is not a site bug. Use URL Inspection in Search
+Console to force Google. Brave runs its own index with no submission tool, so
+it refreshes on its own schedule.
 
 Submit the sitemap once at
 [Google Search Console](https://search.google.com/search-console): add

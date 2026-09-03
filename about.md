@@ -14,6 +14,12 @@ credentials:
   - name: Download my CV
     meta: "PDF · updated September 2026"
     url: /assets/Renato-Gusani-CV.pdf
+# Old URLs from the 2022 site. These had a real replacement here, so they
+# redirect rather than 404: the resume page and the two credential lists.
+redirect_from:
+  - /resume/
+  - /certs/
+  - /awards/
 ---
 
 # About

@@ -57,6 +57,7 @@ background_color:      '#1c1c1e'
 permalink:             /:title/
 
 plugins:
+  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
 

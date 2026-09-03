@@ -23,6 +23,9 @@ volunteering:
     meta: "TecKno.dell.com content, EMEA intern onboarding panel, Transition Year mentor · 2022"
   - name: CSinc.ie, TU Dublin
     meta: "Computer Science Inclusive: camps, workshops and teacher CPD · 2022"
+# The old standalone volunteering page. Its content lives here now.
+redirect_from:
+  - /volunteering/
 ---
 
 # Work

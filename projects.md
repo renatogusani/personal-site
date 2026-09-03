@@ -23,6 +23,19 @@ spacexplorer:
     meta: The live site
     url: https://spacexplorer.info
     ext: true
+# The eleven coursework project pages from the 2022 site.
+redirect_from:
+  - /projects/adv_ml/
+  - /projects/california_housing_prices/
+  - /projects/criminology_report/
+  - /projects/dmml_wine_quality/
+  - /projects/latex_portfolio/
+  - /projects/mysql_movie_database/
+  - /projects/personal_data_footprint/
+  - /projects/programming_i/
+  - /projects/snap_predator/
+  - /projects/spacexplorer_fyp/
+  - /projects/statistical_analyses/
 ---
 
 # Projects
