@@ -6,12 +6,16 @@
     meta  optional, the grey line under it
     url   optional, makes the row a link and adds a chevron
     ext   optional, true for links that leave the site
+    mark  optional, path to a small square brand mark shown before the text
 {%- endcomment -%}
 <ul class="group">
   {%- for row in include.rows -%}
     <li class="row">
       {%- if row.url -%}<a class="row-inner" href="{{ row.url }}"{% if row.ext %} rel="noopener"{% endif %}>
       {%- else -%}<div class="row-inner">{%- endif -%}
+        {%- if row.mark -%}
+          <img class="row-mark" src="{{ row.mark | relative_url }}" alt="" width="26" height="26" loading="lazy" decoding="async">
+        {%- endif -%}
         <span class="row-text">
           <span class="row-name">{{ row.name }}</span>
           {%- if row.meta %}<span class="row-meta">{{ row.meta }}</span>{% endif -%}

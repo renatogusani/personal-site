@@ -17,6 +17,7 @@ now:
     meta: "SpaceX and NASA APOD APIs · 2023"
     url: https://spacexplorer.info
     ext: true
+    mark: /assets/img/marks/spacexplorer.png
 sections:
   - name: Work
     meta: IBM, VNTA Group, and what came before

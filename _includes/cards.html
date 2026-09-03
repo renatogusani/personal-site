@@ -1,0 +1,27 @@
+{%- comment -%}
+  Project cards. Pass `items`, a list of maps:
+    name   required
+    meta   required, the one line under the name
+    image  required, path to a 1200x630 preview
+    alt    required, what the image shows
+    url    required, the live site
+{%- endcomment -%}
+<ul class="cards">
+  {%- for item in include.items -%}
+    <li>
+      <a class="card" href="{{ item.url }}" rel="noopener">
+        <img class="card-img" src="{{ item.image | relative_url }}" alt="{{ item.alt }}"
+             width="1200" height="630" loading="lazy" decoding="async">
+        <span class="card-body">
+          <span class="card-text">
+            <span class="card-name">{{ item.name }}</span>
+            <span class="card-meta">{{ item.meta }}</span>
+          </span>
+          <span class="chev" aria-hidden="true">
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h8v8M14 2 5 11M11 9v5H2V5h5"/></svg>
+          </span>
+        </span>
+      </a>
+    </li>
+  {%- endfor -%}
+</ul>

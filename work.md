@@ -10,14 +10,17 @@ ventures:
     meta: "vendr.ie · Premium managed vending for workplaces · since January 2026"
     url: https://vendr.ie
     ext: true
+    mark: /assets/img/marks/vendr.png
   - name: Éirvox
     meta: "eirvox.ie · A curated marketplace for premium goods · since October 2025"
     url: https://eirvox.ie
     ext: true
+    mark: /assets/img/marks/eirvox.png
   - name: Maison Seul
     meta: "maisonseul.com · A slower, longevity focused house · since July 2025"
     url: https://maisonseul.com
     ext: true
+    mark: /assets/img/marks/maisonseul.png
 volunteering:
   - name: Dell Technologies
     meta: "TecKno.dell.com content, EMEA intern onboarding panel, Transition Year mentor · 2022"

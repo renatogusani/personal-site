@@ -26,6 +26,7 @@ front end is:
 | `_includes/topbar.html` | The back bar on every page except home. |
 | `_includes/socials.html` | Email, GitHub and LinkedIn icons on the home page. |
 | `_includes/schema.html` | Person and WebSite structured data, home page only. |
+| `_includes/cards.html` | Project cards with a preview image. Takes an `items` array. |
 | `_includes/group.html` | The grouped row list. Takes a `rows` array. |
 | `_includes/footer.html` | Footer and the dynamic copyright year. |
 | `assets/css/main.scss` | The only stylesheet. Palette, type and components. |
@@ -75,6 +76,26 @@ WCAG AA. CI does not check that, so if you change the palette, check it.
 
 `cv-reference.md` backs every claim on the site. It is excluded from the build.
 If something is not in that file, it does not belong on a page.
+
+## Where the brand assets came from
+
+The project card images and the small row marks are each venture's own
+artwork, pulled from their repositories rather than recreated:
+
+| Asset | Source |
+|:--|:--|
+| `img/projects/vendr.jpg` | `Vantaneant-International-Ltd/vendr` `static/og.png` |
+| `img/projects/eirvox.jpg` | `Vantaneant-International-Ltd/eirvox` `public/og-image.png` |
+| `img/projects/spacexplorer.jpg` | `renatogusani/SpaceXplorer` `images/og-card.png` |
+| `img/marks/*.png` | each repo's `favicon.svg`, plus Éirvox `public/brand/symbol.png` |
+
+`img/projects/maisonseul.jpg` is the exception. That repo ships no preview
+card, so it is composed here from Maison Seul's own wordmark, descriptor
+("house of absence"), mark and palette (`#0b0907` on `#e9e0d2`), all read out
+of `Vantaneant-International-Ltd/maisonseul`. Replace it if a real card
+appears upstream.
+
+All four are 1200x630, served as JPEG at 2x for a card about 600px wide.
 
 ## SEO
 

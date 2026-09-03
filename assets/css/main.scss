@@ -259,7 +259,7 @@ li { margin-bottom: 0.5rem; }
 
 // Bullets inside prose get a hairline marker instead of a dot, and hang so the
 // text edge stays flush with the paragraphs above.
-main ul:not(.group):not(.socials) > li {
+main ul:not(.group):not(.socials):not(.cards) > li {
   position: relative;
   padding-left: 1.25rem;
 
@@ -353,6 +353,86 @@ a.row-inner {
   display: inline-flex;
 }
 
+// A brand mark at the head of a row. Square, small, and given the same corner
+// radius as the tiles the marks were drawn for.
+.row-mark {
+  flex: 0 0 auto;
+  width: 1.625rem;
+  height: 1.625rem;
+  border-radius: 0.375rem;
+  display: block;
+}
+
+// Cards -------------------------------------------------------------------
+// Used where a project has real artwork to show. Everything else stays a row.
+
+.cards {
+  list-style: none;
+  margin: 0 0 1.0625rem;
+  padding: 0;
+  display: grid;
+  gap: 0.875rem;
+
+  li { margin: 0; }
+
+  @media (min-width: 34rem) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  display: block;
+  background: $surface;
+  border-radius: $radius;
+  overflow: hidden;
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    .card-name { color: $accent; }
+    .card-img { opacity: 0.88; }
+  }
+
+  &:focus-visible { outline-offset: 2px; }
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1200 / 630;
+  object-fit: cover;
+  border-bottom: 1px solid $sep;
+  transition: opacity 200ms;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 0.875rem 1rem;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.card-name {
+  color: $fg;
+  font-size: 1.0625rem;
+  line-height: 1.3;
+}
+
+.card-meta {
+  color: $fg3;
+  font-size: 0.875rem;
+  line-height: 1.35;
+  margin-top: 0.125rem;
+}
+
 // An entry: a role or a project written out in prose rather than as a row.
 .entry {
   padding-bottom: 2.75rem;
@@ -399,7 +479,8 @@ a.row-inner {
   .topbar, .skip, .chev, .socials { display: none; }
   h1, h2, h3, strong, .row-name, .lede, .pull { color: #000; }
   .pull { border-left-color: #999; }
-  .group { background: none; }
+  .group, .card { background: none; }
+  .card-img { display: none; }
   .row + .row { border-top: 1px solid #ccc; }
   a { color: #000; }
 }
