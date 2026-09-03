@@ -74,6 +74,9 @@ WCAG AA. CI does not check that, so if you change the palette, check it.
 
 ### Clients
 
+There is no separate `vnta-site` repository: `Vantaneant-International-Ltd/vnta`
+is the vnta.xyz site, and its `static/CNAME` confirms it.
+
 BUILDT and EZGO Autoworks are listed under VNTA on the Work page. Their names,
 one-line descriptions and URLs are taken from VNTA's own site
 (`Vantaneant-International-Ltd/vnta`, `src/routes/+page.svelte`), which lists
@@ -132,7 +135,7 @@ each role on Work, displayed at 26px.
 |:--|:--|
 | `eirvox` | `eirvox` `public/favicon-192.png`, the real favicon: fox orange on transparent |
 | `vendr`, `spacexplorer` | each repository's own `favicon.svg` |
-| `vnta` | the VNTA symbol, dark rays on white |
+| `vnta` | `vnta` `static/wordmark.svg` |
 | `ibm` | the `@iconify-json/logos` set, on IBM blue |
 | `dell` | the `simple-icons` package, on Dell blue |
 
@@ -145,10 +148,8 @@ alternative. Three things worth recording:
 - **Maison Seul has no mark.** It has no real favicon. The circle and dot in
   its repo is a legacy asset and is not used here. It gets no mark rather than
   a wrong one, and it has no wordmark to fall back on.
-- **VNTA uses its symbol on a white tile.** Reversed white on black the thin
-  rays collapse into a grey dot at 26px, which is why the wordmark was used
-  first. Dark rays on white hold the detail at that size, so the symbol works
-  after all.
+- **VNTA uses its wordmark, not its symbol.** The sunburst's thin rays do not
+  hold at 26px. The wordmark does.
 - **IBM and Dell have no reachable official favicon**, so the authentic logo
   path is set in white on the brand's own blue. They link nowhere: the home
   page rows point at `/work/#ibm` instead.

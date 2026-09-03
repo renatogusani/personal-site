@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Security engineering at IBM, and VNTA Group"
+title: "Security engineering at Randori, and VNTA Group"
 description: >
-  Security engineering at IBM on Randori, founding VNTA Group, and earlier
-  internships at Dell Technologies and Brown Thomas Arnotts.
+  Security engineering at Randori, an IBM company, founding VNTA Group, and
+  earlier internships at Dell Technologies and Brown Thomas Arnotts.
 permalink: /work/
 ventures:
   - name: VNTA Group
@@ -51,21 +51,21 @@ redirect_from:
 
 # Work
 
-Security engineering at IBM, and the ventures I run alongside it. Ordered by
-what I spend time on, not strictly by date.
+Security engineering at Randori, and the ventures I run alongside it. Ordered
+by what I spend time on, not strictly by date.
 {:.lede}
 
 <div class="entry" markdown="1">
 
 <img class="entry-mark" src="/assets/img/marks/ibm.png" alt="IBM" width="26" height="26" loading="lazy" decoding="async">
 
-IBM, Ireland · January 2024 to present
+Randori, an IBM company · Ireland · January 2024 to present
 {:.when}
 
-## Security Engineer, Randori
+## Security Engineer
 {:#ibm}
 
-Randori is IBM's attack surface management product, part of the QRadar suite. I
+Randori is an attack surface management product, part of IBM's QRadar suite. I
 work on the detection side of it and on the tooling around it, as the sole
 Ireland based engineer on the team.
 
@@ -86,10 +86,10 @@ Also volunteered on the Dublin Lab Social and Technical Events Board.
 
 <img class="entry-mark" src="/assets/img/marks/vnta.png" alt="VNTA Group" width="26" height="26" loading="lazy" decoding="async">
 
-Dublin · November 2024 to present
+VNTA Group · Dublin · November 2024 to present
 {:.when}
 
-## Founder, VNTA Group
+## Founder
 {:#vnta-group}
 
 Vantanéant International Ltd, an Irish registered holding company and brand

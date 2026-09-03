@@ -23,7 +23,12 @@
       "worksFor": {
         "@type": "Organization",
         "name": {{ p.employer | jsonify }},
-        "url": {{ p.employer_url | jsonify }}
+        "url": {{ p.employer_url | jsonify }},
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": {{ p.employer_parent | jsonify }},
+          "url": {{ p.employer_parent_url | jsonify }}
+        }
       },
       "alumniOf": {
         "@type": "CollegeOrUniversity",

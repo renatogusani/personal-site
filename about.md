@@ -36,7 +36,7 @@ answer a question. A cybersecurity internship at Dell in 2022 is where the two
 interests met, and I have been on that side ever since.
 {:.lede}
 
-What I actually enjoy is the tooling. At IBM I could do the detection work by
+What I actually enjoy is the tooling. At Randori I could do the detection work by
 hand, and at the start I did. The more useful contribution turned out to be the
 layer underneath: the CLI utilities, the MCP servers, the agent workflows that
 mean nobody has to do the manual version again. That instinct, automation over
@@ -47,9 +47,6 @@ the foundations every time.
 I care about work that holds up. Detection rules that stay accurate as the
 internet changes underneath them, brands that still make sense in five years,
 tools that other people can pick up without a handover call.
-
-Restraint is usually the harder choice and usually the right one.
-{:.pull}
 
 Based in Dublin, Ireland.
 

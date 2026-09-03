@@ -3,12 +3,12 @@ layout: default
 home: true
 title: Renato Gusani
 description: >
-  Security engineer at IBM Security, building Python and MCP tooling for attack
-  surface management. Founder of VNTA Group. Dublin, Ireland.
+  Security engineer at Randori, an IBM company, building Python and MCP tooling
+  for attack surface management. Founder at VNTA Group. Dublin, Ireland.
 permalink: /
 now:
-  - name: IBM Security
-    meta: "Security Engineer, Randori · since January 2024"
+  - name: Randori
+    meta: "An IBM company · Security Engineer, since January 2024"
     url: /work/#ibm
     mark: /assets/img/marks/ibm.png
   - name: VNTA Group
@@ -22,7 +22,7 @@ now:
     mark: /assets/img/marks/spacexplorer.png
 sections:
   - name: Work
-    meta: IBM, VNTA Group, and what came before
+    meta: Randori, VNTA Group, and what came before
     url: /work/
     icon: work
   - name: Projects
@@ -41,12 +41,12 @@ sections:
 
 <header class="home-head">
   <h1 class="home-name">Renato Gusani</h1>
-  <p class="home-tagline">Security engineer at IBM. Founder, VNTA Group. Dublin, Ireland.</p>
+  <p class="home-tagline">Security Engineer at Randori, an IBM company. Founder at VNTA Group. Dublin, Ireland.</p>
 </header>
 
-I build Python automation and detection logic for attack surface management on
-Randori, part of IBM's QRadar suite. Most of what I ship is tooling: CLI
-utilities, MCP servers and agent integrations.
+I build Python automation and detection logic for attack surface management at
+Randori, an IBM company, on the product that carries its name. Most of what I
+ship is tooling: CLI utilities, MCP servers and agent integrations.
 {:.lede}
 
 Now

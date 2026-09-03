@@ -11,10 +11,10 @@ lang:                  en
 
 title:                 Renato Gusani
 # Used by jekyll-seo-tag in the home page <title>, so it reads as a search result.
-tagline:               Security Engineer at IBM, Founder of VNTA Group, Dublin
+tagline:               Security Engineer at Randori, an IBM company, Founder at VNTA Group
 description:           >
-  Security engineer at IBM Security, building Python and MCP tooling for attack
-  surface management. Founder of VNTA Group. Dublin, Ireland.
+  Security engineer at Randori, an IBM company, building Python and MCP tooling
+  for attack surface management. Founder at VNTA Group. Dublin, Ireland.
 
 author:
   name:                Renato Gusani
@@ -30,8 +30,10 @@ twitter:
 # Feeds the Person structured data in _includes/schema.html.
 person:
   job_title:           Security Engineer
-  employer:            IBM
-  employer_url:        https://www.ibm.com/
+  employer:            Randori
+  employer_url:        https://www.ibm.com/products/randori
+  employer_parent:     IBM
+  employer_parent_url: https://www.ibm.com/
   alumni_of:           National College of Ireland
   alumni_of_url:       https://www.ncirl.ie/
   locality:            Dublin

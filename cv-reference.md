@@ -13,7 +13,7 @@ against the LinkedIn profile at linkedin.com/in/rgusani.
 Renato Gusani
 Security engineer who builds the tooling. Founder on the side.
 
-Security Engineer, Randori at IBM
+Security Engineer at Randori, an IBM company
 Founder, VNTA Group
 
 Dublin, Ireland
@@ -25,9 +25,9 @@ renatogusani.com
 
 ## Profile
 
-Security engineer at IBM Security, building Python automation and detection logic
-for attack surface management (Randori, part of the QRadar suite) as the sole
-Ireland based engineer on the team. Designs and ships MCP servers and agent
+Security engineer at Randori, an IBM company, building Python automation and
+detection logic for attack surface management (Randori is part of IBM's QRadar
+suite) as the sole Ireland based engineer on the team. Designs and ships MCP servers and agent
 integrations that turn repetitive workflows into clean tooling. Outside work,
 runs VNTA Group, a portfolio of premium ventures.
 
@@ -44,8 +44,8 @@ Open to software, AI tooling, and security engineering roles. Based in Dublin.
 
 ## Experience
 
-### Security Engineer, Randori
-IBM, Ireland, Hybrid. Jan 2024 to present.
+### Security Engineer
+Randori, an IBM company. Ireland, Hybrid. Jan 2024 to present.
 
 - Build Python CLI tooling and MCP based agent workflows that streamline detection
   and targeting, and scripts that automate data collection.
@@ -125,6 +125,11 @@ Certifications: 16 credentials on LinkedIn, including
 
 - The LinkedIn headline reads "Software Engineer". The CV reads "Security Engineer,
   Randori at IBM". **The CV wins.** The site says Security Engineer.
+- The employer is **Randori, an IBM company**, not "IBM" or "IBM Security".
+  Randori was acquired by IBM and sits in the QRadar suite. Renato corrected
+  this directly: "im a security engineer at randori, an ibm company. founder at
+  vnta group." Phrase it that way everywhere.
+- It is "Founder **at** VNTA Group", not "Founder of".
 - The old site listed `renato.gusani@outlook.com`. That address is retired.
   The only contact address is `renato@vnta.xyz`.
 
