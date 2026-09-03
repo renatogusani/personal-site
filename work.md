@@ -6,6 +6,11 @@ description: >
   internships at Dell Technologies and Brown Thomas Arnotts.
 permalink: /work/
 ventures:
+  - name: VNTA Group
+    meta: "vnta.xyz · The parent company and brand studio"
+    url: https://vnta.xyz
+    ext: true
+    mark: /assets/img/marks/vnta.png
   - name: Vendr
     meta: "vendr.ie · Premium managed vending for workplaces · since January 2026"
     url: https://vendr.ie
@@ -20,12 +25,25 @@ ventures:
     meta: "maisonseul.com · A slower, longevity focused house · since July 2025"
     url: https://maisonseul.com
     ext: true
-    mark: /assets/img/marks/maisonseul.png
+clients:
+  - name: BUILDT
+    meta: "buildt.ie · Custom gaming and creator machines, repairs and diagnostics, Dublin"
+    url: https://buildt.ie
+    ext: true
+  - name: EZGO Autoworks
+    meta: "ezgoautoworks.ie · A full service garage: servicing, repairs and diagnostics, Ireland"
+    url: https://ezgoautoworks.ie
+    ext: true
 volunteering:
   - name: Dell Technologies
     meta: "TecKno.dell.com content, EMEA intern onboarding panel, Transition Year mentor · 2022"
+    url: https://teckno.dell.com
+    ext: true
+    mark: /assets/img/marks/dell.png
   - name: CSinc.ie, TU Dublin
     meta: "Computer Science Inclusive: camps, workshops and teacher CPD · 2022"
+    url: https://csinc.ie
+    ext: true
 # The old standalone volunteering page. Its content lives here now.
 redirect_from:
   - /volunteering/
@@ -80,6 +98,11 @@ operations across the group, building shared infrastructure so each company
 scales on common foundations while keeping its own identity.
 
 {% include group.html rows=page.ventures %}
+
+The studio also takes on client work, one brand at a time: strategy, design
+system, build, then the keys handed over.
+
+{% include group.html rows=page.clients %}
 
 </div>
 

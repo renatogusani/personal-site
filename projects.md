@@ -19,6 +19,11 @@ redirect_from:
   - /projects/spacexplorer_fyp/
   - /projects/statistical_analyses/
 ventures:
+  - name: VNTA Group
+    meta: "vnta.xyz · The parent company and brand studio"
+    image: /assets/img/projects/vnta.jpg
+    alt: "The VNTA Group site."
+    url: https://vnta.xyz
   - name: Vendr
     meta: "vendr.ie · Premium managed vending for workplaces"
     image: /assets/img/projects/vendr.jpg

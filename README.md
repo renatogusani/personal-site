@@ -72,6 +72,17 @@ no nav bar to maintain.
 Every text colour in `main.scss` is annotated with its contrast ratio and clears
 WCAG AA. CI does not check that, so if you change the palette, check it.
 
+### Clients
+
+BUILDT and EZGO Autoworks are listed under VNTA on the Work page. Their names,
+one-line descriptions and URLs are taken from VNTA's own site
+(`Vantaneant-International-Ltd/vnta`, `src/routes/+page.svelte`), which lists
+them publicly. Nothing comes from the client portal in that repo, which holds
+confidential material.
+
+Their repositories are private and cannot be reached from a session scoped to
+another owner, so neither has a mark.
+
 ### Source of truth
 
 `cv-reference.md` backs every claim on the site. It is excluded from the build.
@@ -115,29 +126,33 @@ requests, and the capture matches the live page:
 ### Marks
 
 `img/marks/` holds the small square marks used on the home page rows and above
-each role on Work. All 96px on a dark tile, so they sit together as one set and
-read at their display size of 26px.
+each role on Work, displayed at 26px.
 
 | Mark | Source |
 |:--|:--|
-| `vendr`, `maisonseul`, `spacexplorer` | each repository's own `favicon.svg` |
-| `eirvox` | `eirvox` `public/apple-touch-icon.png`, its real app icon |
+| `eirvox` | `eirvox` `public/favicon-192.png`, the real favicon: fox orange on transparent |
+| `vendr`, `spacexplorer` | each repository's own `favicon.svg` |
 | `vnta` | `vnta` `static/wordmark.svg` |
 | `ibm` | the `@iconify-json/logos` set, on IBM blue |
 | `dell` | the `simple-icons` package, on Dell blue |
 
-Prefer a project's real favicon or app icon over anything reconstructed. Two
-choices worth recording:
+Use a project's real favicon. Nothing reconstructed unless there is no
+alternative. Three things worth recording:
 
+- **Éirvox keeps its transparency.** Its own `index.html` says the mark is
+  "the fox in fox orange on transparent, so it reads on a light tab bar and on
+  a dark one". Do not put it on a tile.
+- **Maison Seul has no mark.** It has no real favicon. The circle and dot in
+  its repo is a legacy asset and is not used here. It gets no mark rather than
+  a wrong one, and it has no wordmark to fall back on.
 - **VNTA uses its wordmark, not its symbol.** The sunburst is thin radiating
-  rays, which collapse into a grey dot at 26px. "VNTA" stays legible.
+  rays and collapses to a grey dot at 26px.
 - **IBM and Dell have no reachable official favicon**, so the authentic logo
-  path is set in white on the brand's own blue. They identify a real employer
-  and link nowhere: sending a reader to ibm.com is a link off the site for no
-  return. The home page rows point at `/work/#ibm` instead.
+  path is set in white on the brand's own blue. They link nowhere: the home
+  page rows point at `/work/#ibm` instead.
 
-Brown Thomas Arnotts has no mark. No official asset was available and drawing
-an approximation of someone's trademark is worse than leaving the space empty.
+Brown Thomas Arnotts has no mark, and no official asset was available.
+
 
 ### Glyphs
 

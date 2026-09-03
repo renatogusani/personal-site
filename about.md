@@ -25,6 +25,10 @@ redirect_from:
 
 # About
 
+<img class="portrait" src="/assets/img/renato.jpg"
+     alt="Renato Gusani, seated, in a navy suit jacket over a white shirt."
+     width="640" height="640" loading="lazy" decoding="async">
+
 I came into security sideways. I studied Data Science at the National College of
 Ireland, graduating in 2023, and spent most of the degree on statistics,
 analysis and the unglamorous work of getting data into a state where it can
