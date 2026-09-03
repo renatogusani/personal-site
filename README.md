@@ -101,10 +101,16 @@ than a patch:
 Vendr's consent notice (`aside.cb`) is hidden for the capture. It is chrome,
 not design.
 
-Caveat: this environment has no outbound network, so any webfont a site pulls
-from Google Fonts falls back. Éirvox (Inter Tight, JetBrains Mono, Newsreader)
-is the one affected; its headline renders in a system grotesque rather than
-Inter Tight. Vendr, Maison Seul and SpaceXplorer are unaffected.
+Webfonts: this environment has no outbound network, so Google Fonts cannot
+load. Vendr, Maison Seul and SpaceXplorer do not use any. Éirvox asks for three,
+so they are served from the same origin under the exact family names the site
+requests, and the capture matches the live page:
+
+| Site asks for | Served |
+|:--|:--|
+| JetBrains Mono | the real thing, from the local font set |
+| Inter Tight | Inter, which Tight is a narrower cut of |
+| Newsreader (italic) | Crimson Pro italic, a stand-in |
 
 The small row marks in `img/marks/` are each repository's `favicon.svg`, plus
 Éirvox's `public/brand/symbol.png`.
