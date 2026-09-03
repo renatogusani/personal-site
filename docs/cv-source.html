@@ -1,53 +1,53 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>Renato Gusani CV</title>
 <style>
-/* Liberation Sans, the face the existing CV already uses and metric compatible
-   with Arial, so the document stays recognisably the same one. */
-@page { size: A4; margin: 16mm 17mm 18mm; }
+/* Metrics measured off the original PDF: 25mm side margins, 38pt name,
+   10.5pt body at 1.8 leading, and the Apple grey triad. Body copy is near
+   black; the lightness comes from the margins and the leading, not from
+   greying the text. Bold appears only on the name, role titles, skill labels
+   and the odd company name. */
+@page { size: A4; margin: 22mm 25mm 18mm; }
 * { box-sizing: border-box; }
 html, body { margin:0; padding:0; }
 body {
   font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
-  font-size: 9.7pt; line-height: 1.47; color:#1d1d1f; -webkit-print-color-adjust: exact;
+  font-size: 10.15pt; line-height: 1.6; font-weight: 400;
+  color:#1d1d1f; -webkit-print-color-adjust: exact;
 }
-a { color:#1d1d1f; text-decoration:none; }
+strong { font-weight: 700; color:#1d1d1f; }
 
-.name { font-size: 26pt; font-weight: 700; letter-spacing:-0.025em; line-height:1.02; margin:0 0 4pt; }
-.standfirst { font-size: 10.6pt; color:#3a3a3c; margin:0 0 7pt; }
-.roles { font-size: 10.1pt; font-weight:700; margin:0 0 6pt; }
-.contact { font-size: 9.2pt; color:#4a4a4d; line-height:1.6; margin:0; }
-.rule { border:0; border-top:0.6pt solid #c9c9cd; margin:13pt 0 0; }
+.name { font-size: 38pt; font-weight:700; letter-spacing:-0.022em; line-height:1.0; margin:0 0 9pt; }
+.standfirst { font-size: 13pt; font-weight:400; line-height:1.35; margin:0 0 11pt; }
+.roles { font-size: 10pt; font-weight:400; color:#6e6e73; margin:0 0 12pt; }
+.contact { font-size: 8.8pt; font-weight:400; color:#86868b; line-height:1.5; margin:0; }
+.rule { border:0; border-top:0.6pt solid #d2d2d7; margin:13pt 0 0; }
 
-h2 { font-size: 8.2pt; font-weight:700; letter-spacing:0.16em; text-transform:uppercase;
-     color:#6e6e73; margin:17pt 0 8pt; }
-h3 { font-size: 10.8pt; font-weight:700; margin:0 0 1pt; letter-spacing:-0.01em; }
-.meta { font-size: 9.2pt; color:#5a5a5e; margin:0 0 4pt; }
-p { margin:0 0 5pt; }
-ul { margin:0 0 8pt; padding-left: 11pt; }
-li { margin:0 0 3.4pt; }
-.entry { margin-bottom: 11pt; }
+h2 { font-size: 9pt; font-weight:700; letter-spacing:0.19em; text-transform:uppercase;
+     color:#6e6e73; margin:13pt 0 7pt; }
+h3 { font-size: 11.5pt; font-weight:700; margin:0 0 1pt; letter-spacing:-0.008em; }
+.meta { font-size: 9.3pt; color:#6e6e73; margin:0 0 5pt; }
+p { margin:0 0 8pt; line-height:1.76; }
+ul { margin:0 0 9pt; padding-left: 13pt; }
+li { margin:0 0 3.5pt; line-height:1.58; }
+.entry { margin-bottom: 10pt; }
 .entry:last-child { margin-bottom:0; }
 
-/* Skills: label in a fixed column so the values line up. */
-.skill { display:grid; grid-template-columns: 96pt 1fr; gap:0 10pt; margin-bottom:4.2pt; }
+/* Skills: bold label, grey value, as in the original. */
+.skill { display:grid; grid-template-columns: 104pt 1fr; gap:0 12pt; margin-bottom:6pt; }
 .skill dt { font-weight:700; }
-.skill dd { margin:0; }
-dl { margin:0 0 2pt; }
+.skill dd { margin:0; color:#6e6e73; line-height:1.6; }
+dl { margin:0; }
+.inline { color:#6e6e73; }
 
-/* Page breaks: never strand a heading at the foot of a page, and never split
-   a role across two. */
 h2, h3, .meta { break-after: avoid-page; page-break-after: avoid; }
+li { break-inside: avoid-page; }
 .entry { break-inside: auto; }
-li { break-inside: avoid-page; page-break-inside: avoid; }
-h2 { break-inside: avoid-page; }
-
-.inline { font-size:9.9pt; }
 .page-break { break-after: page; page-break-after: always; }
-.tight { margin-bottom:3pt; }
 </style></head><body>
 
 <div class="name">Renato Gusani</div>
 <p class="standfirst">Cyber security engineer who builds the tooling. Founder on the side.</p>
-<p class="roles">Security Engineer, Randori at IBM &nbsp;·&nbsp; Founder, VNTA Group</p>
+<p class="roles">Security Engineer at <strong>Randori</strong>, an IBM company. &nbsp;·&nbsp;
+  Founder at <strong>VNTA</strong> Group</p>
 <p class="contact">
   Dublin, Ireland &nbsp;·&nbsp; renato@vnta.xyz &nbsp;·&nbsp; +353 85 118 4364<br>
   linkedin.com/in/rgusani &nbsp;·&nbsp; github.com/renatogusani &nbsp;·&nbsp; renatogusani.com
@@ -56,51 +56,39 @@ h2 { break-inside: avoid-page; }
 
 <h2>Profile</h2>
 <p>Cyber security engineer at Randori, an IBM company, working on attack surface
-management within the IBM QRadar suite. I build the Python automation, CLI
-tooling and MCP based agent workflows the detection team runs on, write the
-fingerprinting rules that identify exposed software and services, and correlate
-findings against CVE and CPE data so customers can prioritise remediation.
-Outside work I run VNTA Group, a portfolio of premium ventures.</p>
-<p>The work runs from the detection rule itself through to the tooling that produces
-and validates it, and the habit behind it is the same one I apply everywhere: remove
-the manual step wherever there is one.</p>
+management within the IBM QRadar suite. I build the Python automation and MCP based
+agent workflows the detection team runs on, write the fingerprinting rules that
+identify exposed software and services, and correlate findings against CVE and CPE
+data so customers can prioritise remediation. Outside work I run VNTA Group.</p>
 <p>Open to cyber security, security automation and AI tooling roles. Based in Dublin.</p>
 
 <h2>Skills</h2>
 <dl>
   <div class="skill"><dt>Security</dt><dd>Attack surface management, detection engineering, threat
-    analysis, vulnerability management and risk mitigation, CVE and CPE correlation, service
-    fingerprinting, security posture assessment</dd></div>
+    analysis, vulnerability management and risk mitigation, CVE and CPE correlation</dd></div>
   <div class="skill"><dt>Automation and AI</dt><dd>Python, CLI tooling, security automation, MCP and
     agentic systems, FastMCP, scripting and data collection pipelines</dd></div>
   <div class="skill"><dt>Data</dt><dd>Data analysis, statistics, SQL, regular expressions</dd></div>
   <div class="skill"><dt>Security tooling</dt><dd>IBM Randori, IBM QRadar suite, Splunk, Imperva
-    SecureSphere database activity monitoring and firewall, McAfee Solidcore application
-    control</dd></div>
+    SecureSphere, McAfee Solidcore</dd></div>
   <div class="skill"><dt>Engineering</dt><dd>Git and GitHub, CI on GitHub Actions, Jekyll,
-    SvelteKit, Cloudflare Pages</dd></div>
+    SvelteKit</dd></div>
 </dl>
 
 <h2>Experience</h2>
-
 <div class="entry">
   <h3>Security Engineer, Randori</h3>
-  <p class="meta">Randori, an IBM company &nbsp;·&nbsp; Ireland, Hybrid &nbsp;·&nbsp; Jan 2024 to present</p>
+  <p class="meta"><strong>Randori</strong>, an IBM company &nbsp;·&nbsp; Ireland, Hybrid &nbsp;·&nbsp; Jan 2024 to Present</p>
   <ul>
     <li>Build the Python CLI tooling and MCP based agent workflows the detection team runs on,
-      streamlining how detections are written, tested and targeted.</li>
-    <li>Write Python that automates data collection and removes recurring manual workload from
-      the team's week.</li>
+      and the scripts that automate data collection, removing recurring manual work.</li>
     <li>Develop and ship detection rules with the wider Randori team, improving security posture
       across the customer base.</li>
     <li>Write regular expression rules that fingerprint software, services and versions, then
-      correlate findings against known vulnerabilities using CPE mappings and scoring frameworks
-      to support vulnerability risk mitigation.</li>
+      correlate findings with known vulnerabilities via CPE mappings and scoring frameworks.</li>
     <li>Identify attack vectors such as exposed login fields, directory listings and default
-      installations, and recommend mitigations to reduce customer exposure.</li>
-    <li>Partner with customer success and sales engineering on technical troubleshooting, and
-      translate findings into remediation customers can act on.</li>
-    <li>Volunteer on the Dublin Lab Social and Technical Events Board.</li>
+      installations, recommend mitigations, and support customer and sales teams with technical
+      troubleshooting.</li>
   </ul>
 </div>
 
@@ -108,39 +96,32 @@ the manual step wherever there is one.</p>
 
 <div class="entry">
   <h3>Cybersecurity Intern</h3>
-  <p class="meta">Dell Technologies &nbsp;·&nbsp; Limerick, Remote &nbsp;·&nbsp; Feb 2022 to Aug 2022</p>
+  <p class="meta"><strong>Dell Technologies</strong> &nbsp;·&nbsp; Limerick, Remote &nbsp;·&nbsp; Feb 2022 to Aug 2022</p>
   <ul>
-    <li>Six month placement in Dell's Security and Resiliency Organization: security monitoring
-      and alert triage, incident response support, vulnerability scanning and patch
-      prioritisation.</li>
-    <li>Monitored servers for breaches and investigated violations using Imperva SecureSphere
-      database activity monitoring and firewall, and watched the Splunk cyber defence dashboards
-      for anomalies.</li>
+    <li>Six month placement in Dell's Security and Resiliency Organization: security monitoring,
+      alert triage, vulnerability scanning and patch prioritisation.</li>
+    <li>Monitored servers using Imperva SecureSphere database activity monitoring and firewall,
+      and watched the Splunk cyber defence dashboards for anomalies.</li>
     <li>Automated a weekly Imperva procedure in Python, C# and Excel VBA, saving the team over an
-      hour a week and removing a source of manual error. Led the project through all its
-      phases.</li>
-    <li>Audited database servers for missing McAfee Solidcore application control and worked with
-      the database administrators to close the gaps.</li>
-    <li>Wrote a LinkedIn article and video on the internship, with eight practical tips for
-      incoming interns.</li>
+      hour a week and removing a source of manual error.</li>
   </ul>
 </div>
 
 <div class="entry">
   <h3>Database Engineering Intern</h3>
-  <p class="meta">Brown Thomas Arnotts &nbsp;·&nbsp; Dublin &nbsp;·&nbsp; Summer 2021</p>
+  <p class="meta"><strong>Brown Thomas Arnotts</strong> &nbsp;·&nbsp; Dublin &nbsp;·&nbsp; Summer 2021</p>
   <ul>
     <li>Built and maintained SQL databases for retail operations and reporting, including data
-      integrity, backup and access control processes.</li>
+      integrity, backup and access control.</li>
   </ul>
 </div>
 
 <h2>Entrepreneurship</h2>
 <div class="entry">
   <h3>Founder</h3>
-  <p class="meta">VNTA Group, Vantanéant International Ltd &nbsp;·&nbsp; Dublin &nbsp;·&nbsp; Nov 2024 to present</p>
-  <p class="tight">Parent company behind Vendr, Éirvox and Maison Seul. I lead strategy, brand and
-  operations across the group, building shared infrastructure so each company scales on common
+  <p class="meta"><strong>VNTA Group</strong>, Vantanéant International Ltd &nbsp;·&nbsp; Dublin &nbsp;·&nbsp; Nov 2024 to Present</p>
+  <p>Parent company behind Vendr, Éirvox and Maison Seul. I lead strategy, brand and operations
+  across the group, building shared infrastructure so each company scales on common
   foundations.</p>
   <ul>
     <li><strong>Vendr</strong> (2026): premium, fully managed vending for modern workplaces.
@@ -155,8 +136,8 @@ the manual step wherever there is one.</p>
   <h3>SpaceXplorer</h3>
   <p class="meta">Final Year Project, National College of Ireland &nbsp;·&nbsp; spacexplorer.info &nbsp;·&nbsp; 2022 to 2023</p>
   <p>Explored the SpaceX and NASA APOD APIs with data science and machine learning, analysing
-  4,630 orbital launch attempts across 62 operators, 370 rockets and 158 launch sites, and
-  published the findings and live launch statistics as an open source site.</p>
+  4,630 orbital launch attempts across 62 operators, and published the findings as an open
+  source site.</p>
 </div>
 
 <h2>Education and certifications</h2>
@@ -168,11 +149,8 @@ the manual step wherever there is one.</p>
 </div>
 
 <h2>Volunteering</h2>
-<ul>
-  <li><strong>Dell Technologies</strong>, 2022: TecKno.dell.com content, EMEA intern onboarding
-    panel, Transition Year Program mentor.</li>
-  <li><strong>CSinc.ie, TU Dublin</strong>, 2022: Computer Science Inclusive, improving how
-    computer science is taught through camps, workshops and teacher CPD.</li>
-</ul>
+<p class="inline"><strong>Dell Technologies</strong>, 2022: TecKno.dell.com content, EMEA intern
+onboarding panel, Transition Year mentor. &nbsp;·&nbsp; <strong>CSinc.ie, TU Dublin</strong>, 2022:
+Computer Science Inclusive. &nbsp;·&nbsp; <strong>Randori</strong>, Dublin Lab events board.</p>
 
 </body></html>

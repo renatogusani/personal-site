@@ -186,8 +186,26 @@ pg.pdf(path="Renato-Gusani-CV.pdf", format="A4", print_background=True,
        margin={"top":"16mm","bottom":"18mm","left":"17mm","right":"17mm"})
 ```
 
-Liberation Sans, the same face the original PDF used and metric compatible with
-Arial, so the document stays recognisably the same one. Two pages.
+Liberation Sans, the same face the original PDF used. The rest of the metrics
+were measured off that original rather than guessed, so the rebuild reads as the
+same document:
+
+| | |
+|:--|:--|
+| Page | A4, 25mm side margins, 22mm top |
+| Name | 38pt bold |
+| Standfirst | 13pt regular |
+| Body | 10.15pt, 1.6 leading, paragraphs at 1.76 |
+| Section labels | 9pt, 0.19em tracking, uppercase |
+| Primary text | `#1d1d1f` |
+| Supporting text | `#6e6e73` (role line, section labels, meta, skill values) |
+| Contact | `#86868b` |
+| Footer | `#a7a7ab` |
+
+Body copy is near black. The document reads light because of the margins and
+the leading, not because the text is greyed. **Bold appears only on the name,
+role titles, skill labels and company names.** Nothing else, and never a whole
+line.
 
 Three rules for its content, all from Renato, and all recorded in
 `cv-reference.md`:
