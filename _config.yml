@@ -64,8 +64,8 @@ accent_image:          none
 # 4.6:1 on white, so it passes WCAG AA for body text.
 accent_color:          '#0066cc'
 
-# Near black. Drives the sidebar panel and the browser UI theme-color meta tag.
-theme_color:           '#1d1d1f'
+# White. Drives the sidebar panel and the browser UI theme-color meta tag.
+theme_color:           '#ffffff'
 
 # System font stack, no webfonts, so there is no render blocking font request.
 font:                  '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif'
@@ -73,6 +73,11 @@ font_heading:          '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, H
 font_code:             'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'
 
 defaults:
+  # Dark text on the white sidebar panel.
+  - scope:
+      path:            ''
+    values:
+      invert_sidebar:  true
   - scope:
       path:            assets/
     values:
@@ -105,7 +110,9 @@ hydejack:
   no_toc:              true
 
   no_third_column:     true
-  no_large_headings:   false
+  # Headings are sized in _sass/_my-overrides.scss instead. The theme's own
+  # large-screen rule went up to 4rem, which shouts.
+  no_large_headings:   true
   no_structured_data:  false
   no_theme_color:      false
   no_breadcrumbs:      true
@@ -117,8 +124,10 @@ hydejack:
 
   dark_mode:
     always:            false
+    # Follows the visitor's OS setting. No toggle: a switch is chrome, and the
+    # OS already knows the answer.
     dynamic:           true
-    icon:              true
+    icon:              false
 
   offline:
     enabled:           false

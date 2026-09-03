@@ -19,7 +19,7 @@ Alongside that I run [VNTA Group](/work/#vnta-group), a portfolio of premium
 ventures in Dublin, where I lead strategy, brand and operations.
 
 ## Now
-{:.figcaption}
+{:.label}
 
 **IBM Security**, since January 2024. Detection rules, regex based service
 fingerprinting and CPE vulnerability correlation for Randori.
