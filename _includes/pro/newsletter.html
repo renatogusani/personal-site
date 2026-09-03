@@ -1,4 +1,4 @@
-{% capture my_newsletter %}{% include my-newsletter.html %}{% endcapture %}
+{% assign my_newsletter = "" %}
 {% assign  my_newsletter = my_newsletter | strip_newlines %}
 
 {% if my_newsletter.size > 0 %}
